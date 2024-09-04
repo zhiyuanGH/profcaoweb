@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+
+<link rel="icon"
+      type="image/png"
+      href="images/favicon.png" />
+
+<script src="http://opodis2018.campus.ciencias.ulisboa.pt/jquery/jquery.js"></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+<link rel="stylesheet" href="css/bootstrap.css" />
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OPODIS is an open forum for the exchange of state-of-the-art knowledge on distributed
+                                      computing and distributed computer systems. All aspects of distributed systems are within the
+                                      scope of OPODIS, including theory, specification, design, performance, and system building.">
+	<meta name="author" content="Ibéria Medeiros, Pedro Marques" >
+<!--	<meta name="google-site-verification" content="nv2dj8TZqODCBet2mF46sxFdqZg6RUCn0iwMvgQg7Iw" /> -->
+
+    <title>OPODIS 2018 - The 22nd International Conference on Principles of Distributed Systems</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template
+    <link href="css/opodis.css" rel="stylesheet">-->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="http://opodis2018.campus.ciencias.ulisboa.pt/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body role="document">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">OPODIS2018</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a href="index.html">Home</a></li>
+            <li><a href="organization.html">Committees</a></li>
+            <li class="dropdown">
+              <a href="cfp.html#" class="dropdown-toogle" data-toggle="dropdown">Info for authors <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="cfp.html">Call for papers</a></li>
+      <!-- We remove this menu item because we don't have information about it -->
+      <!--          <li><a href="cfwt.html">Call for workshops and tutorials</a></li> -->
+                <li><a href="dates.html">Important dates</a></li>
+                <li><a href="subHere.html">Submission information</a></li>
+
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="cfp.html#" class="dropdown-toogle" data-toggle="dropdown">Info for attendees <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="venue.html">Venue and accommodation</a></li>
+            <!-- We remove this menu item because we don't have information about it -->
+            <!--          <li><a href="cfwt.html">Call for workshops and tutorials</a></li> -->
+
+              </ul>
+            </li>
+
+
+
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="past.html">Past edition</a></li>
+
+              </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/car1.jpg" alt="The 22nd International Conference on" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 22nd International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">17-19 December 2018</h3>
+		  <h3 align="right">Hong Kong</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/car2.jpg" alt="Principles of Distributed Systems" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 22nd International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">17-19 December 2018</h3>
+		  <h3 align="right">Hong Kong</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/car3.jpg" alt="Call for papers" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 22nd International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">17-19 December 2018</h3>
+		  <h3 align="right">Hong Kong</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="cfp.html#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="cfp.html#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<div class="container theme-showcase" role="main">
+
+	<div class="page-header">
+        <p align="justify">OPODIS is an open forum for the exchange of state-of-the-art knowledge concerning distributed computing and distributed computer systems.  OPODIS aims at having a balanced program that combines theory and practice of distributed systems. OPODIS solicits papers in all aspects of distributed systems, including theory, specification, design, system building, and performance.
+</p>
+
+
+
+<p>Topics of interest include, but are not limited to:</p>
+
+			<div class="row">
+				<div class="col-md-4">
+					<ul>
+						<li>Biological distributed algorithms </li>
+						<li>Blockchain technology and theory </li>
+						<li>Communication networks (protocols, architectures, services, applications) </li>
+						<li>Cloud computing and data centers </li>
+						<li>Dependable distributed algorithms and systems </li>
+						<li>Design and analysis of concurrent and distributed data structures </li>
+						<li>Design and analysis of distributed algorithms </li>
+                        <li>Randomization in distributed computing</li>
+                        <li>Social systems, peer-to-peer and overlay networks</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>Distributed event processing </li>
+						<li>Distributed operating systems, middleware, and distributed database systems </li>
+						<li> Distributed storage and file systems, large-scale systems, and big data analytics </li>
+						<li>Edge computing </li>
+						<li>Embedded and energy-efficient distributed systems</li>
+						<li>Game-theory and economical aspects of distributed computing</li>
+                        <li>Security and privacy, cryptographic protocols</li>
+                        <li>Synchronization, concurrent algorithms, shared and transactional memory</li>
+                        <li>Impossibility results for distributed computing</li>
+
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>High-performance, cluster, cloud and grid computing </li>
+						<li>Internet of things and cyber-physical systems</li>
+						<li>Mesh and ad-hoc networks (wireless, mobile, sensor), location and context-aware systems </li>
+						<li>Mobile agents, robots, and rendezvous </li>
+						<li>Programming languages, formal methods, specification and verification applied to distributed systems </li>
+                        <li>Self-stabilization, self-organization, autonomy</li>
+					</ul>
+				</div>
+
+			</div>
+
+         <br />
+ <!--        <p> This edition of the OPODIS conference will take place in Madrid. Madrid, the capital of Spain,
+             is a cosmopolitan city that combines the most modern infrastructures and the status as an economic,
+             financial, administrative and service centre, with a large cultural and artistic heritage, a legacy of
+             centuries of exciting history.
+-->
+		</div>
+
+
+
+
+
+		<div class="page-header">
+			<h3>Submissions</h3>
+            <p align="justify">Papers are to be submitted electronically through EasyChair at the following
+<a href="https://easychair.org/conferences/?conf=opodis2018" target="_blank"> Submission link.</a> Submissions must be in English in pdf format and they must be prepared using the <a href=" https://www.dagstuhl.de/en/publications/lipics/instructions-for-authors">LaTeX style templates for LIPIcs</a> and choosing the A4 paper option. A submission must not exceed 16 pages, including the cover page, figures, tables and references. The cover page should include the title of the paper, the authors’ names, affiliations and e-mails, the contact author,  a list of keywords, and  an abstract of 1 to 2 paragraphs summarizing the contributions of the submission.</p>
+
+<p align="justify">The submission must contain a clear presentation of the merits of the paper, including discussion of its importance, prior work, and an outline of key technical ideas and methods used to achieve the main claims. All of the ideas necessary for an expert to fully verify the central claims in the submission, including experimental results, should be included either in the submission or in a clearly marked appendix. The appendix will be read at the discretion of the reviewers. If desired, the appendix can be a copy of the full paper.</p>
+
+<p align="justify">A submission must report on original research that has not previously appeared in a journal or conference with published proceedings. It should not be concurrently submitted to such a journal or conference. Any overlap with a published or concurrently submitted paper must be clearly indicated. The Program Chairs reserve the right to reject submissions that are out of scope,  of clearly inferior quality, or that violate the submission guidelines. Each of the remaining papers will undergo a thorough reviewing process.</p>
+        </div>
+        <div class="page-header">
+          <h3 id="important-dates">Important dates</h3>
+          <table class="table table-dark bigtable table-striped important-dates" id="example-dark">
+            <tbody>
+              <tr>
+                <span itemscope itemtype="http://schema.org/Event">
+        <!-- AQUI Alterar abstract deadline. Esta alterada para 28 de agosto... no final da linha -->
+                <td itemprop="startDate" content="2018-08-31" class="tab-date">August 31, 2018</td>
+        <!--						<td itemprop="startDate" content="2017-08-21" class="tab-date">August 21, 2017</td> -->
+                <td itemprop="name" class="tab-info"><a href="https://easychair.org/conferences/?conf=opodis2018" target="_blank">Abstract registration</a> </td>
+                </span>
+              </tr>
+              <tr>
+                <span itemscope itemtype="http://schema.org/Event">
+        <!-- AQUI Alterar submission deadline. Esta alterada para 04 de setembro... no final da linha -->
+                <td itemprop="startDate" content="2018-09-05" class="tab-date">September 5, 2018</td>
+        <!--						<td itemprop="startDate" content="2017-08-28" class="tab-date">August 28, 2017</td> -->
+                <td itemprop="name" class="tab-info">Submission deadline</td>
+                </span>
+              </tr>
+        <!--
+              <tr>
+                <span itemscope itemtype="http://schema.org/Event">
+                <td itemprop="startDate" content="2017-08-21" class="tab-date">TBA</td>
+                <td itemprop="name" class="tab-info">Workshops and tutorials proposal deadlne</td>
+                </span>
+              </tr>
+        -->
+              <tr>
+                <span itemscope itemtype="http://schema.org/Event">
+                <td itemprop="startDate" content="2018-10-26" class="tab-date">October 26, 2018</td>
+        <!--						<td itemprop="startDate" content="2017-10-30" class="tab-date">October 30, 2017</td> -->
+                <td itemprop="name" class="tab-info">Acceptance notification</td>
+                </span>
+              </tr>
+              <tr>
+                <span itemscope itemtype="http://schema.org/Event">
+        <!--							<td itemprop="startDate" content="2017-11-13" class="tab-date"><strike>November 13, 2017</strike><font color="red"> November 15, 2017</font></td> -->
+              <td itemprop="startDate" content="2018-11-14" class="tab-date">November 14, 2018</td>
+                <td itemprop="name" class="tab-info">Final version due</td>
+                </span>
+              </tr>
+
+              <tr>
+                <span itemscope itemtype="http://schema.org/Event">
+                <td itemprop="startDate" content="2017-18-20" class="tab-date">December 17-19, 2018, Hong Kong</td>
+                <td itemprop="name" class="tab-info">Conference</td>
+                </span>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="page-header">
+<h3>Publication</h3>
+
+<p align="justify">OPODIS has post-proceedings published by Leibniz International Proceedings in Informatics (LIPIcs) in gold open access mode. The proceedings become available online, free of charge, after the conference. Preliminary versions of the proceedings will be available to participants at the conference electronically. The camera-ready version of a paper must have the same format and be of the same length as its submitted version. Extended and revised versions of selected papers will be considered for a special journal issue.</p>
+        </div>
+        <div class="page-header">
+
+<h3>Awards</h3>
+
+<p align="justify">Awards will be given to the best paper and the best student paper (i.e. primarily written by a student). Eligibility for the best student paper award should be clearly indicated on the cover page.
+</p>
+			<br />
+		</div>
+
+
+
+
+
+
+<meta itemprop="url" content="index.html"></div> <!-- /container -->
+    <script src="js/jquery.metadata.js"></script>
+    <script src="js/jquery.tablesorter.min.js"></script>
+    <script src="js/jquery.tablecloth.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        $("table").tablecloth({
+          theme: "default",
+          bordered: false,
+          striped: true
+        });
+      });
+    </script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ </body>
+</html>

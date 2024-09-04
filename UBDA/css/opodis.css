@@ -1,0 +1,304 @@
+@media (min-width: 1000px) {
+}
+
+
+@media (max-width: 767px) {
+	.input-group {
+		margin-left: 22px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		font-size: 12px;
+	}
+
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    	float: left;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-6 {
+		width: 75%;
+	}
+	.col-lg-12 {
+	width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+	.navbar-nav > li > a {
+		font-size: 14px;
+	}
+}
+
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container .jumbotron {
+	background-image:url("../images/c6.png");
+	background-size: 100% 100%;
+	color: #ffffff;
+	text-shadow: 0 0 3px #ffffff;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.table-dark {
+	width: 600px;
+}
+
+.bigtable {
+	width: 650px;
+}
+
+.table-prices {
+	width: 400px;
+}
+
+.table-dark .tab-date, .table-prices .tab-room  {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.table-dark .tab-info, .table-prices .tab-price {
+	padding-left: 10px;
+}
+
+.galleria { 
+	width: 940px;
+	height: 300px; 
+	background: #fff 
+}
+
+body .galleria-thumbnails .galleria-image {
+	width:106px
+}
+
+.credits {
+	font-size: 12px;
+	color: #555555;
+}
+
+iframe {
+    border: 4px solid #E0E1DF;
+}
+
+.submit {
+	font-size: 20px;	
+	font-weight: bold;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+div .img-container {
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:center
+}
+
+div.tutorial.head {
+	font-size: 16px;
+}
+
+.tutorial .title {
+	font-weight: bold;
+}
+
+.tutorial .author {
+	font-style: italic;
+}
+
+.bio {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.busnel {
+	min-height: 300px;
+}
+
+.face {
+	width: 100px;
+	border: 1px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+@media (min-width: 568px) {
+	.face {
+		width: 100px;
+		border: 1px solid gray;
+		float: right;
+		margin-left: 15px;
+	}
+}
+
+#authornote {
+	display: none;
+}
+
+.mandatory {
+	border-width: 3px;
+}
+
+.table {
+	width: auto;
+}
+
+td.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.table-bordered>tbody>tr>td.middle,
+.table-bordered>thead>tr>td.middle {
+	vertical-align: middle;
+}
+
+.registration-confirm {
+	display: inline-block;
+	text-align: left;
+}
+
+.recap>tbody>tr>td{
+	border-top: none;
+}
+
+.header {
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+}
+
+.key {
+	text-align: right;
+	font-weight: bold;
+}
+
+.left-margin {
+	margin-left: 30px;
+}
+
+.accepted-authors {
+	font-style: italic;
+}
+
+table.program {
+	width: 100%;
+	font-size: 12px;
+}
+
+table.program td{
+	padding: 2px;
+	text-align: center;
+	border: 1px solid #909090;
+}
+
+td.program.day {
+	font-weight: bold;
+	width: 23%;
+}
+
+td.program.time {
+	text-align: right;
+    vertical-align: text-top;
+	border: 0px none #909090;
+	border-top: 1px dotted #909090;
+}
+
+td.program.empty {
+	background: #fff;
+	border: 0px none #909090;
+}
+
+td.program.day {
+	border: 0px none #909090;
+}
+
+table.program #first{
+	border: 0px none #909090;
+	border-top: 1px dotted #909090;
+}
+
+td.program.service {
+	background: #f8c1c1;
+}
+
+td.program.workshop {
+	background: #eceddd;
+}
+
+td.program.tutorial {
+	background: #e7b1ff;
+}
+
+td.program.session {
+	background: #b1d8ff;
+}
+
+td.program.break {
+	background: #c4f1ad;
+}
+
+td.program.keynote {
+	background: #fdc9a6;
+}
+
+div.program.day {
+	background-color: #d7e1ef;
+	font-weight: bold;
+	font-size: 120%;
+	color: #5385ca;
+	padding: 3px;
+	border: 1px solid #7d94f6;
+}
+
+div.program.time {
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+div.program.item {
+	margin-left: 25px;
+	padding-top:5px;
+}
+
+div.program.author {
+	margin-left: 25px;
+    font-style: italic;
+	padding-bottom:5px;
+}
+
+div.program.title {
+	margin-left: 25px;
+}
+
+div.program.chair {
+	font-size: 90%;
+	margin-left: 25px;
+	border-bottom: 1px solid #909090;
+}
+
+.navbar-custom {
+    background-color:#F6F6F6;
+    color:#FFFFFF;
+    border-radius:10;
+}
+
+
+

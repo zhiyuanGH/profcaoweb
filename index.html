@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache" content="no-cache">
+     
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen,projection" />
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/main.js"></script>
+
+
+
+    <title>Jiannong Cao at Hong Kong PolyU</title>
+
+
+
+</head>
+
+<body style="background-color: #FFFFFF">
+
+	<div id="wrap">
+		<div style="margin-top: 1em"><img src="images/polyu-gif.gif" width="377" height="74" alt="" /><img align="right" src="images/Picture3.gif" width="287" height="74" alt="" />
+            <br />
+        </div>
+        <br />
+        <div id="leftside">
+            <div align="left">
+                <img src="images/JNC.jpg" width="190px">
+            </div>
+            <br />
+            <div align="left">
+                <table>
+                    <tr>
+                        <td align="left">
+                            <font face="Times New Roman" size="4px">
+                                <strong>Jiannong Cao</strong>
+                            </font>
+                        </td>
+                        <td align="left">
+                            <img src="images/JCaoName.jpg" width="80">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div align="justify">
+                <p style="font-family:Times New Roman; font-size:15px">
+                    Otto Poon Charitable Foundation Professor in Data Science<br/>
+                    Chair Professor of Distributed and Mobile Computing<br/>
+			Member of Academia Europaea<br/>
+			Fellow of Hong Kong Academy of Engineering Science <br/>
+                    Fellow of IEEE (Computer Society)<br/>
+                    Fellow of CCF<br/>
+                    Distinguished Member of ACM<br/><br/>
+                    BSc (Nanjing University)<br/>
+                    MSc, Ph.D. (Washington State University)<br/><br/>
+                    <a href="http://www.comp.polyu.edu.hk/" target="_blank">Department of Computing</a><br/>
+                    <a href="http://www.polyu.edu.hk/" target="_blank">The Hong Kong Polytechnic University</a><br/>
+                    <strong>Address</strong>: Hung Hom, Kowloon, Hong Kong<br />
+                    <strong>Office</strong>: PQ819, Mong Man Wai Building<br />
+                    <!-- <br />Phone/Fax: (852) 27667275 / 27740842 -->
+                    <strong>Office No.</strong>: (852) 2766 7275<br />
+                    <strong>Fax No.</strong>: (852) 2774 0842<br />
+                    <strong>Email</strong>: <a href="mailto:csjcao@comp.polyu.edu.hk">csjcao@comp.polyu.edu.hk</a><br /><br />
+                    <a href="https://scholar.google.com/citations?user=q2jH-3sAAAAJ&hl=zh-CN">Google Scholar</a><br />
+
+                    <strong>ORCID ID</strong>: <a target="_blank" href="http://orcid.org/0000-0002-2725-2529">0000-0002-2725-2529</a><br />
+                    <strong>Scopus Author ID</strong>: <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=7403354073">7403354073</a>
+                </p>
+            </div>
+            <br />
+        </div>
+        
+        <div id="contentwide">
+            <div id="navigate">
+                <div class="nav nav-tabs nav-justified" style="font-family:sans-serif;font-size:15px">                 
+                    <li role="presentation" class="active"><a href="#" onclick="load_home()">Home</a></li>
+                    <li role="presentation"><a href="#" onclick="load_grants()">Grants</a></li>
+                    <li role="presentation"><a href="#" onclick="load_pubs()">Publications</a></li>
+                    <li role="presentation"><a href="#" onclick="load_teach()">Teaching</a></li>
+                    <li role="presentation"><a href="#" onclick="load_serve()">Service</a></li>
+                   	<li role="presentation"><a href="#" onclick="load_award()">Award</a></li>
+                    <li role="presentation"><a href="https://www4.comp.polyu.edu.hk/~labimcl/director.html" target="_blank">IMCL</a></li>
+                </div>
+            </div>
+            <div id="changeable">
+    
+            </div>
+            <script>
+                $("#changeable").load("sub_parts/home_part.html");
+            </script>
+        </div>
+        <div style="clear: both; height: 200px;"></div>
+	</div>
+
+</body>
+
+<script>
+    $.ajaxSetup({
+        cache: false
+    });
+</script>
+
+</html>

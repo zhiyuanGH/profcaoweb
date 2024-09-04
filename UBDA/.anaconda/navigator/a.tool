@@ -1,0 +1,1 @@
+bash --init-file <(echo "source activate /Users/jiawang/anaconda2/envs/python_3_5;")

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+
+<link rel="icon"
+      type="image/png"
+      href="images/favicon.png" />
+
+<script src="http://opodis2017.campus.ciencias.ulisboa.pt/jquery/jquery.js"></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link href="css/opodis.css" rel="stylesheet">
+
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OPODIS is an open forum for the exchange of state-of-the-art knowledge on distributed
+                                      computing and distributed computer systems. All aspects of distributed systems are within the
+                                      scope of OPODIS, including theory, specification, design, performance, and system building.">
+	<meta name="author" content="Ibéria Medeiros, Pedro Marques" >
+<!--	<meta name="google-site-verification" content="nv2dj8TZqODCBet2mF46sxFdqZg6RUCn0iwMvgQg7Iw" /> -->
+
+    <title>OPODIS 2017 - The 21st International Conference on Principles of Distributed Systems</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template 
+    <link href="css/opodis.css" rel="stylesheet">-->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="http://opodis2017.campus.ciencias.ulisboa.pt/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  
+<body role="document">
+   <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">OPODIS2017</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a href="index.html">About</a></li>
+            <li><a href="organization.html">Committees</a></li>
+            <li class="dropdown">
+              <a href="program.html#" class="dropdown-toogle" data-toggle="dropdown">Info for authors <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="cfp.html">Call for papers</a></li>
+      <!-- We remove this menu item because we don't have information about it -->
+      <!--          <li><a href="cfwt.html">Call for workshops and tutorials</a></li> -->
+                <li><a href="dates.html">Important dates</a></li>
+                <li><a href="submission.html">Submission information</a></li>
+                <li><a href="cameraready.html">Camera-ready submission</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="program.html#" class="dropdown-toggle" data-toggle="dropdown">Info for attendees <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="program.html">Program</a></li>
+                <li><a href="keynotespeakers.html">Keynote speakers</a></li>
+                <li><a href="accepted.html">Accepted papers</a></li>
+                <li><a href="venue.html">Venue and accommodation</a></li>
+                <li><a href="registration.html">Registration</a></li>
+  <!--              <li><a href="studentgrants.html">Student grants</a></li> -->
+              </ul>
+            </li>
+			<li><a href="http://www.dagstuhl.de/dagpub/978-3-95977-061-3" target="_blank">Proceedings</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="http://opodis2016.etsisi.upm.es" target="_blank">Past edition</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/car1.jpg" alt="The 21st International Conference on" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 21st International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">18-20 December 2017</h3>
+		  <h3 align="right">Lisboa, Portugal</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/car2.jpg" alt="Principles of Distributed Systems" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 21st International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">18-20 December 2017</h3>
+		  <h3 align="right">Lisboa, Portugal</h3>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/car3.jpg" alt="Call for papers" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 21st International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">18-20 December 2017</h3>
+		  <h3 align="right">Lisboa, Portugal</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="program.html#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="program.html#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<div class="container theme-showcase" role="main">
+	
+	
+	<div class="page-header">
+			<h3><a name="detailed_program"></a>Program</h3>
+
+			<div class="program day"><a name="18th"></a>Monday, December 18</div>
+			<div class="program time">08:45-09:00</div>
+			<div class="program item">Opening</div>
+			<div class="program time">09:00-10:00</div>
+			<div class="program item">Keynote: <b>What Should We Learn From Satoshi Nakamoto's Blockchain?
+			(<a href="presentations/Keynote1.pdf" target="_blank">slides</a>)</b></div>
+			<div class="program author">Roger Wattenhofer, ETH Zurich</div>
+			<div class="program chair">Chair: James Aspnes</div>
+			<div class="program time">10:00-10:30</div>
+			<div class="program item">Coffee break</div>
+			<div class="program time">10:30-12:15</div>
+			<div class="program item">Session 1: <b>Graph and Network Algorithms</b></div>
+                        <div class="program chair">Chair: José Pereira</div>
+						<div class="program title">1. Broadcasting in an Unreliable SINR model
+						(<a href="presentations/Session1_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Fabian Kuhn and Philipp Schneider</div>
+         
+						<div class="program title">2. Fast Distributed Approximation for TAP and 2-Edge-Connectivity
+						(<a href="presentations/Session1_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author"> Keren Censor-Hillel and Michal Dory</div>         
+						
+						<div class="program title">3. Distributed Distance-Bounded Network Design Through Distributed Convex Programming
+						(<a href="presentations/Session1_paper3.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Michael Dinitz and Yasamin Nazari</div>
+						
+						<div class="program title">4. Lower Bounds for Subgraph Detection in the CONGEST Model
+						(<a href="presentations/Session1_paper4.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Tzlil Gonen and Rotem Oshman</div>
+						
+			<div class="program time">12:15-14:00</div>
+                        <div class="program title">Lunch break</div>
+			<div class="program time">14:00-15:45</div>
+			<div class="program item">Session 2: <b>Concurrency</b></div>
+                        <div class="program chair">Chair: Miguel Pardal</div>
+						
+						<div class="program title">1. Extending Transactional Memory with Atomic Deferral
+						(<a href="presentations/Session2_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Tingzhe Zhou, Victor Luchangco and Michael Spear</div>
+						
+						<div class="program title">2. Progress-Space Tradeoffs in Single-Writer Memory Implementations
+						(<a href="presentations/Session2_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Damien Imbs, Petr Kuznetsov and Thibault Rieutord</div>
+						
+						<div class="program title">3. The Teleportation Design Pattern for Hardware Transactional Memory
+						(<a href="presentations/Session2_paper3.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Nachshon Cohen, Maurice Herlihy, Erez Petrank and Elias Wald</div>
+						
+						<div class="program title">4. Lock Oscillation: Boosting the Performance of Concurrent Data Structures
+						(<a href="presentations/Session2_paper4.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Nikolaos Kallimanis and Panagiota Fatourou</div>                        
+
+                        
+			<div class="program time">15:45-16:15</div>
+			<div class="program item">Coffee break</div>
+			<div class="program time">16:15-18:00</div>
+			<div class="program item">Session 3: <b>Agents and Robots</b></div>
+                        <div class="program chair">Chair: Sebastien Tixeuil</div>
+						
+						<div class="program title">1. Evacuating an Equilateral Triangle in the Face-to-Face Model</div>
+                        <div class="program author">Huda Chuangpishit, Saeed Mehrabi, Lata Narayanan and Jaroslav Opatrny</div>
+						
+						<div class="program title">2. Model Checking of Robot Gathering
+						(<a href="presentations/Session3_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Thi Thu Ha Doan, François Bonnet and Kazuhiro Ogata</div>
+						
+						<div class="program title">3. Plane formation by synchronous mobile robots without chirality
+						(<a href="presentations/Session3_paper3.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author"> Yusaku Tomita, Yukiko Yamauchi, Shuji Kijima and Masafumi Yamashita</div>
+						
+						<div class="program title">4. Treasure Hunt with Barely Communicating Agents
+						(<a href="presentations/Session3_paper4.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Stefan Dobrev, Rastislav Královič and Dana Pardubská</div>
+                        
+			<div class="program time">18:00-20:00</div>
+			<div class="program item">Reception</div>
+			<br/>
+
+
+			<div class="program day"><a name="19th"></a>Tuesday, December 19</div>
+			<div class="program time">9:00-10:00</div>
+			<div class="program item">Keynote: <b>Causality for the Masses: Offering Fresh Data, Low Latency, and High Throughput
+			(<a href="presentations/Keynote2.pdf" target="_blank">slides</a>)</b></div>
+			<div class="program author">Luis Rodrigues, INESC-ID/IST, U. Lisboa</div>
+			<div class="program chair">Chair: Pascal Felber</div>
+			<div class="program time">10:00-10:30</div>
+			<div class="program item">Coffee break</div>
+			
+			
+			<div class="program time">10:30-12:15</div>
+			<div class="program item">Session 4: <b>Shared Memory</b></div>
+                        <div class="program chair">Chair: Panagiota Fatourou</div>
+                        <div class="program title">1. Anonymous Processors with Synchronous Shared Memory: Monte Carlo Algorithms
+						(<a href="presentations/Session4_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Bogdan Chlebus, Gianluca De Marco and Muhammed Talo</div>
+						
+						<div class="program title">2. Lower Bounds on the Amortized Time Complexity of Shared Objects
+						(<a href="presentations/Session4_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Hagit Attiya and Arie Fouren</div>
+						
+						<div class="program title">3. Mutual exclusion algorithms with constant RMR complexity and wait-free exit code
+						(<a href="presentations/Session4_paper3.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author"> Rotem Dvir and Gadi Taubenfeld</div>
+						
+						<div class="program title">4. Remote Memory References at Block Granularity
+						(<a href="presentations/Session4_paper4.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author"> Hagit Attiya and Gili Yavneh</div>
+                        
+			<div class="program time">12:15-14:00</div>
+                        <div class="program title">Lunch break</div>
+			<div class="program time">14:00-15:45</div>
+			<div class="program item">Session 5: <b>Algorithms, Randomization and Optimization</b></div>
+                        <div class="program chair">Chair: Yukiko Yamauchi</div>
+         <div class="program title">1. Constant-space population protocols for uniform bipartition
+						(<a href="presentations/Session5_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Hiroto Yasumi, Fukuhito Ooshita, Ken'Ichi Yamaguchi and Michiko Inoue</div>
+						
+						<div class="program title">2. Fast Detection of Stable and Counting Predicates in Parallel Computations
+						(<a href="presentations/Session5_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Himanshu Chauhan and Vijay Garg</div>
+						
+						<div class="program title">3. Deterministic subgraph detection in broadcast CONGEST
+						(<a href="presentations/Session5_paper3.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Janne H. Korhonen and Joel Rybicki</div>						
+						
+						<div class="program title">4. Schlegel Diagram and Optimizable Immediate Snapshot Protocol
+						(<a href="presentations/Session5_paper4.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Susumu Nishimura</div>
+                        
+			<div class="program time">15:45-16:15</div>
+			<div class="program item">Coffee break</div>
+			<div class="program time">16:15-17:30</div>
+			<div class="program item">Session 6: <b>Replication and Consensus</b></div>
+                        <div class="program chair">Chair: Miguel Correia</div>
+                        <div class="program title">1. Designing a Planetary-Scale IMAP Service with Conflict-free Replicated Data Types
+						(<a href="presentations/Session6_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Tim Jungnickel, Lennart Oldenburg and Matthias Loibl</div>
+						
+						<div class="program title">2. Non-uniform Replication
+						(<a href="presentations/Session6_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Gonçalo Cabrita and Nuno Preguiça</div>
+						
+						<div class="program title">3. Solida: A Blockchain Protocol Based on Reconfigurable Byzantine Consensus
+						(<a href="presentations/Session6_paper3.pptx" target="_blank">slides</a>)</div>
+                        <div class="program author">Ittai Abraham, Dahlia Malkhi, Kartik Nayak, Ling Ren and Alexander Spiegelman</div>
+
+			<div class="program time">17:30-18:00</div>
+			<div class="program item">Business Meeting</div>
+			
+			<div class="program time">20:00-22:00</div>
+			<div class="program item">Banquet, <a href="venue.html#banquet">Restaurante Via Graça</a></div>
+			<br/>
+
+			<div class="program day"><a name="20th"></a>Wednesday, December 20</div>
+			<div class="program time">9:00-10:15</div>
+			<div class="program item">Session 7: <b>Security and Dependability</b></div>
+                        <div class="program chair">Chair: Luis Rodrigues</div>
+						<div class="program title">1. Efficient and Modular Consensus-Free Reconfiguration for Fault-Tolerant Storage
+						(<a href="presentations/Session7_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Eduardo Alchieri, Alysson Bessani, Fabiola Greve and Joni da Silva Fraga</div>
+						
+						<div class="program title">2. Hardening Cassandra Against Byzantine Failures
+						(<a href="presentations/Session7_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Roy Friedman and Roni Licher</div>
+						
+						<div class="program title">3. Vulnerability-Tolerant Transport Layer Security
+						(<a href="https://www.slideshare.net/MiguelLPardal/vulnerability-tolerant-transport-layer-security/" target="_blank">slides</a>)</div>
+                        <div class="program author">André Joaquim, Miguel Pardal and Miguel Correia</div>
+						
+			<div class="program time">10:15-10:45</div>
+                        <div class="program title">Coffee break</div>
+			<div class="program time">10:45-12:30</div>
+			<div class="program item">Session 8: <b>Distributed Algorithms</b></div>
+                        <div class="program chair">Chair: Miguel Matos</div>
+                        <div class="program title">1. Asynchronous Message Orderings Beyond Causality
+						(<a href="presentations/Session8_paper1.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Adam Shimi, Aurélie Hurault and Philippe Quéinnec</div>
+						
+						<div class="program title">2. Constant Space and Non-Constant Time in Distributed Computing
+						(<a href="presentations/Session8_paper2.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Tuomo Lempiäinen and Jukka Suomela</div>
+						
+						<div class="program title">3. Shape Formation by Programmable Particles
+						(<a href="presentations/Session8_paper3.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Giovanni Viglietta, Giuseppe Antonio Di Luna, Paola Flocchini, Nicola Santoro and Yukiko Yamauchi</div>
+						
+						<div class="program title">4. Synthesis of Distributed Algorithms with Parameterized Threshold Guards
+						(<a href="presentations/Session8_paper4.pdf" target="_blank">slides</a>)</div>
+                        <div class="program author">Marijana Lazic, Igor Konnov, Josef Widder and Roderick Bloem</div>
+                        
+			<div class="program time">12:30-12:45</div>
+			<div class="program item">Closing</div>
+
+
+		</div>
+	
+	
+	
+<br /><br /><br /><br />
+
+<!--         <p> This edition of the OPODIS conference will take place in Lisboa. Lisboa, the capital of Portugal, 
+             is a cosmopolitan city that combines the most modern infrastructures and the status as an economic, 
+             financial, administrative and service centre, with a large cultural and artistic heritage, a legacy of 
+             centuries of exciting history.		
+-->	
+		
+		
+	
+	
+	
+</div><!--  /container -->
+
+<footer class="footer">
+      <div class="container">
+		
+<!--	 --><p>OPODIS 2017 is supported by:<p>
+			<div class="row">
+				<div class="col-lg-6">
+				<table><tr>
+					<td width="20%"><a href="http://lasige.di.fc.ul.pt/" target="_blank"><h1>LaSIGE</h1></a></td>
+					<td width="40%" align="center"><a href="https://ciencias.ulisboa.pt/" target="_blank"><img src="images/Ciencias_Logo_Azul-01.png" alt="FCUL" width="75%"></a></td>
+					<td width="40%"><a href="https://www.fct.pt/" target="_blank"><img src="images/2017_FCT_H_cor.png" alt="FCT" width="75%"></a></td>
+				</tr></table>
+				</div>
+				
+			</div>
+			<p class="pull-right"><a href="program.html#">Back to top</a></p>
+		</div>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	 <!--<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-81071-5', 'etsisi.upm.es');
+		ga('send', 'pageview');
+	</script>-->
+ </body>
+</html>

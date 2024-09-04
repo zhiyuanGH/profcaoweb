@@ -1,0 +1,4338 @@
+{
+    "info": [],
+    "packages": {
+        "_license-1.1-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "proprietary - Continuum Analytics, Inc.",
+            "license_family": "Proprietary",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/_license-1.1-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "c0a9a25d11c559d3a2897df2f90a0b5c",
+            "name": "_license",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/_license-1.1-py27_1.tar.bz2",
+            "version": "1.1"
+        },
+        "alabaster-0.7.9-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/alabaster-0.7.9-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "f919ec69212e8a841922e6df8b4f1e89",
+            "name": "alabaster",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/alabaster-0.7.9-py27_0.tar.bz2",
+            "version": "0.7.9"
+        },
+        "anaconda-client-1.6.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "clyent",
+                "python 2.7*",
+                "python-dateutil",
+                "pytz",
+                "pyyaml",
+                "requests >=2.9.1",
+                "setuptools"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/anaconda-client-1.6.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0379bca50ad51bd905e7b3268310e8c0",
+            "name": "anaconda-client",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/anaconda-client-1.6.0-py27_0.tar.bz2",
+            "version": "1.6.0"
+        },
+        "anaconda-custom-py27_0": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_0",
+            "build_number": 0,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2016-03-14",
+            "depends": [
+                "python 2.7*"
+            ],
+            "fn": "anaconda-custom-py27_0.tar.bz2",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/anaconda-custom-py27_0",
+                "type": 1
+            },
+            "md5": "edb0aa4259a05bbd5279107db179d085",
+            "name": "anaconda",
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 0,
+            "requires": [
+                "python 2.7"
+            ],
+            "schannel": "defaults",
+            "size": 2839,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/anaconda-custom-py27_0.tar.bz2",
+            "version": "custom",
+            "with_features_depends": {}
+        },
+        "anaconda-navigator-1.4.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "_license",
+                "anaconda-client >=1.6",
+                "pillow",
+                "psutil",
+                "pyqt >=5.6",
+                "python 2.7*",
+                "pyyaml",
+                "qtpy >=1.2",
+                "requests"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "proprietary - Continuum Analytics, Inc.",
+            "license_family": "Proprietary",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/anaconda-navigator-1.4.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e6a9f85f531cf18b371e0ef9f4bcc00e",
+            "name": "anaconda-navigator",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/anaconda-navigator-1.4.3-py27_0.tar.bz2",
+            "version": "1.4.3"
+        },
+        "appnope-0.1.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/appnope-0.1.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1779b437f4e168c687106e13215f3bc9",
+            "name": "appnope",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/appnope-0.1.0-py27_0.tar.bz2",
+            "version": "0.1.0"
+        },
+        "appscript-1.0.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Public Domain",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/appscript-1.0.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "a1bbb6f9fc4a44223c9feef1cb67ac1e",
+            "name": "appscript",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/appscript-1.0.1-py27_0.tar.bz2",
+            "version": "1.0.1"
+        },
+        "argcomplete-1.0.0-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*",
+                "setuptools"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/argcomplete-1.0.0-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "5c482304cd093bd8da9391b7a2ddbca3",
+            "name": "argcomplete",
+            "platform": "osx",
+            "requires": [
+                "python 2.7",
+                "setuptools 18.4"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/argcomplete-1.0.0-py27_1.tar.bz2",
+            "version": "1.0.0"
+        },
+        "astroid-1.4.9-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "lazy-object-proxy",
+                "python 2.7*",
+                "six",
+                "wrapt"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "LGPL",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/astroid-1.4.9-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c902249bcbe125ac254110fa65eb304c",
+            "name": "astroid",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/astroid-1.4.9-py27_0.tar.bz2",
+            "version": "1.4.9"
+        },
+        "astropy-1.3-np111py27_0": {
+            "arch": "x86_64",
+            "build": "np111py27_0",
+            "build_number": 0,
+            "depends": [
+                "numpy 1.11*",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/astropy-1.3-np111py27_0",
+                "type": "hard-link"
+            },
+            "md5": "5e8d49b89a11494fa08bf184b12d724b",
+            "name": "astropy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/astropy-1.3-np111py27_0.tar.bz2",
+            "version": "1.3"
+        },
+        "babel-2.3.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "pytz"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/babel-2.3.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0e12497b7c2890bc9846cb5aea348039",
+            "name": "babel",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/babel-2.3.4-py27_0.tar.bz2",
+            "version": "2.3.4"
+        },
+        "backports-1.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/backports-1.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "dbb0f413e006ea05e959ed4e684cacfc",
+            "name": "backports",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/backports-1.0-py27_0.tar.bz2",
+            "version": "1.0"
+        },
+        "backports_abc-0.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/backports_abc-0.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "42469ec1262bec55e34044dd84ee0626",
+            "name": "backports_abc",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/backports_abc-0.5-py27_0.tar.bz2",
+            "version": "0.5"
+        },
+        "beautifulsoup4-4.5.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/beautifulsoup4-4.5.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "166df58ef41fe9dc2b93748519bf2b31",
+            "name": "beautifulsoup4",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/beautifulsoup4-4.5.3-py27_0.tar.bz2",
+            "version": "4.5.3"
+        },
+        "bitarray-0.8.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/bitarray-0.8.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "61fb2902368b77f0d1547ad02a064d41",
+            "name": "bitarray",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/bitarray-0.8.1-py27_0.tar.bz2",
+            "version": "0.8.1"
+        },
+        "blaze-0.10.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "contextlib2",
+                "cytoolz",
+                "dask",
+                "flask",
+                "flask-cors",
+                "h5py",
+                "numba",
+                "odo >=0.4",
+                "psutil",
+                "pytables >=3.0.0",
+                "python 2.7*",
+                "pyyaml",
+                "requests",
+                "sqlalchemy >=0.8"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/blaze-0.10.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "b0a484333b993af29b0c97c6332d5aff",
+            "name": "blaze",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/blaze-0.10.1-py27_0.tar.bz2",
+            "version": "0.10.1"
+        },
+        "bokeh-0.12.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "futures >=3.0.3",
+                "jinja2 >=2.7",
+                "numpy",
+                "python 2.7*",
+                "python-dateutil >=2.1",
+                "pyyaml >=3.10",
+                "requests >=1.2.3",
+                "six >=1.5.2",
+                "tornado >=4.3"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/bokeh-0.12.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "7ab244e1f661eccdd917ae7327555061",
+            "name": "bokeh",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/bokeh-0.12.4-py27_0.tar.bz2",
+            "version": "0.12.4"
+        },
+        "boto-2.45.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/boto-2.45.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "5fec2d3d7d7a6006b8e677b1a00d166b",
+            "name": "boto",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/boto-2.45.0-py27_0.tar.bz2",
+            "version": "2.45.0"
+        },
+        "bottleneck-1.2.0-np111py27_0": {
+            "arch": "x86_64",
+            "build": "np111py27_0",
+            "build_number": 0,
+            "depends": [
+                "numpy 1.11*",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Simplified BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/bottleneck-1.2.0-np111py27_0",
+                "type": "hard-link"
+            },
+            "md5": "576cee2fea5624d867b6e55950383dcc",
+            "name": "bottleneck",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/bottleneck-1.2.0-np111py27_0.tar.bz2",
+            "version": "1.2.0"
+        },
+        "cdecimal-2.3-py27_2": {
+            "arch": "x86_64",
+            "build": "py27_2",
+            "build_number": 2,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cdecimal-2.3-py27_2",
+                "type": "hard-link"
+            },
+            "md5": "5c737d4db9dc88efe9e0018e1ff2042b",
+            "name": "cdecimal",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cdecimal-2.3-py27_2.tar.bz2",
+            "version": "2.3"
+        },
+        "cffi-1.9.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "pycparser",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cffi-1.9.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "b66ddaaf1ca8cf2968d36b70cf1d6ec2",
+            "name": "cffi",
+            "platform": "osx",
+            "requires": [
+                "pycparser 2.17",
+                "python 2.7"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cffi-1.9.1-py27_0.tar.bz2",
+            "version": "1.9.1"
+        },
+        "chardet-2.3.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "GNU Library or Lesser General Public License",
+            "license_family": "GPL2",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/chardet-2.3.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e8b1698f7f095c152b79059392f68f4c",
+            "name": "chardet",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/chardet-2.3.0-py27_0.tar.bz2",
+            "version": "2.3.0"
+        },
+        "chest-0.2.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "heapdict 1.0.0",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/chest-0.2.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e0ca942183285e27ac38bbf527be8fb5",
+            "name": "chest",
+            "platform": "osx",
+            "requires": [
+                "heapdict 1.0.0",
+                "python 2.7"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/chest-0.2.3-py27_0.tar.bz2",
+            "version": "0.2.3"
+        },
+        "click-6.7-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/click-6.7-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "ce32ef70fbf9094244d7a2af660e62b2",
+            "name": "click",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/click-6.7-py27_0.tar.bz2",
+            "version": "6.7"
+        },
+        "cloudpickle-0.2.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cloudpickle-0.2.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "460ae9c209dff3870a12a8b165d06a6e",
+            "name": "cloudpickle",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cloudpickle-0.2.2-py27_0.tar.bz2",
+            "version": "0.2.2"
+        },
+        "clyent-1.2.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "setuptools"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/clyent-1.2.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "26746c8b2621faaf2cd7415a9faa13f6",
+            "name": "clyent",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/clyent-1.2.2-py27_0.tar.bz2",
+            "version": "1.2.2"
+        },
+        "colorama-0.3.7-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/colorama-0.3.7-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "8220064414d5e66706a930eef3307257",
+            "name": "colorama",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/colorama-0.3.7-py27_0.tar.bz2",
+            "version": "0.3.7"
+        },
+        "conda-4.3.21-py27_0": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_0",
+            "build_number": 0,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2017-05-25",
+            "depends": [
+                "conda-env >=2.6",
+                "enum34",
+                "pycosat >=0.6.1",
+                "pyopenssl >=16.2",
+                "python 2.7*",
+                "requests >=2.12.4",
+                "ruamel_yaml >=0.11.14"
+            ],
+            "fn": "conda-4.3.21-py27_0.tar.bz2",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/conda-4.3.21-py27_0",
+                "type": 1
+            },
+            "md5": "b32ea74a8838f188cfa4bf26c0cc7bfe",
+            "name": "conda",
+            "noarch": null,
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 1,
+            "schannel": "defaults",
+            "size": 505005,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/conda-4.3.21-py27_0.tar.bz2",
+            "version": "4.3.21",
+            "with_features_depends": {}
+        },
+        "conda-env-2.6.0-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/conda-env-2.6.0-0",
+                "type": "hard-link"
+            },
+            "md5": "4bcba5618e1c70cbfb5107c3e61f2488",
+            "name": "conda-env",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/conda-env-2.6.0-0.tar.bz2",
+            "version": "2.6.0"
+        },
+        "configobj-5.0.6-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/configobj-5.0.6-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c2c87d49163f9511995c4391b7e96c21",
+            "name": "configobj",
+            "platform": "osx",
+            "requires": [
+                "python 2.7",
+                "six 1.7.3"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/configobj-5.0.6-py27_0.tar.bz2",
+            "version": "5.0.6"
+        },
+        "configparser-3.5.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "backports",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/configparser-3.5.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c126b6600539747da4e596d5a1c22de3",
+            "name": "configparser",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/configparser-3.5.0-py27_0.tar.bz2",
+            "version": "3.5.0"
+        },
+        "contextlib2-0.5.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/contextlib2-0.5.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "dd45cc983869f30c5ffa848d2246c37e",
+            "name": "contextlib2",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/contextlib2-0.5.4-py27_0.tar.bz2",
+            "version": "0.5.4"
+        },
+        "cryptography-1.7.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "cffi >=1.4.1",
+                "enum34",
+                "idna >=2.0",
+                "ipaddress",
+                "openssl 1.0.2*",
+                "pyasn1 >=0.1.8",
+                "python 2.7*",
+                "setuptools",
+                "six >=1.4.1"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cryptography-1.7.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "8864e36a346a4243561226ef508f1651",
+            "name": "cryptography",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cryptography-1.7.1-py27_0.tar.bz2",
+            "version": "1.7.1"
+        },
+        "curl-7.52.1-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "openssl 1.0.2*",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT/X derivate",
+            "license_family": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/curl-7.52.1-0",
+                "type": "hard-link"
+            },
+            "md5": "d3ec98ab8d47c79644b235cb37cd46e6",
+            "name": "curl",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/curl-7.52.1-0.tar.bz2",
+            "version": "7.52.1"
+        },
+        "cycler-0.10.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cycler-0.10.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "f25d391bc6c0db2324e521700dc218bc",
+            "name": "cycler",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cycler-0.10.0-py27_0.tar.bz2",
+            "version": "0.10.0"
+        },
+        "cython-0.25.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache version 2.0",
+            "license_family": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cython-0.25.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "a4c3ba9f96c4aa7867d8d6d7a8a03f63",
+            "name": "cython",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cython-0.25.2-py27_0.tar.bz2",
+            "version": "0.25.2"
+        },
+        "cytoolz-0.8.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "toolz >=0.8.0"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/cytoolz-0.8.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "6316104b1342a031a13b975f3e9a846a",
+            "name": "cytoolz",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/cytoolz-0.8.2-py27_0.tar.bz2",
+            "version": "0.8.2"
+        },
+        "dask-0.13.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "bokeh",
+                "chest",
+                "cloudpickle >=0.2.1",
+                "numpy",
+                "pandas >=0.18.0",
+                "partd >=0.3.6",
+                "python 2.7*",
+                "toolz >=0.7.2"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/dask-0.13.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "2ced92084d306cbd1d41e377b2f7d86f",
+            "name": "dask",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/dask-0.13.0-py27_0.tar.bz2",
+            "version": "0.13.0"
+        },
+        "datashape-0.5.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "multipledispatch >=0.4.7",
+                "numpy >=1.7",
+                "python 2.7*",
+                "python-dateutil"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/datashape-0.5.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "d987948d3fd615c4498d780d1b0d931d",
+            "name": "datashape",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/datashape-0.5.4-py27_0.tar.bz2",
+            "version": "0.5.4"
+        },
+        "decorator-4.0.11-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/decorator-4.0.11-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "7c29758e98bfe75690b68f1de9a7f63e",
+            "name": "decorator",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/decorator-4.0.11-py27_0.tar.bz2",
+            "version": "4.0.11"
+        },
+        "dill-0.2.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/dill-0.2.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "5497111ecb02d0e96e6dd66a92d2ca95",
+            "name": "dill",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/dill-0.2.5-py27_0.tar.bz2",
+            "version": "0.2.5"
+        },
+        "docutils-0.13.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Public-Domain, PSF, 2-clause BSD, GPLv3",
+            "license_family": "GPL3",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/docutils-0.13.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "d2709d43f967fc8706b2436507d4132c",
+            "name": "docutils",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/docutils-0.13.1-py27_0.tar.bz2",
+            "version": "0.13.1"
+        },
+        "entrypoints-0.2.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "configparser",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/entrypoints-0.2.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "19c3c74764f020ba8830ccc8f633bf75",
+            "name": "entrypoints",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/entrypoints-0.2.2-py27_0.tar.bz2",
+            "version": "0.2.2"
+        },
+        "enum34-1.1.6-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/enum34-1.1.6-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1a04ba0c440ed5b1c7663d475c27077b",
+            "name": "enum34",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/enum34-1.1.6-py27_0.tar.bz2",
+            "version": "1.1.6"
+        },
+        "et_xmlfile-1.0.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/et_xmlfile-1.0.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e60fa1aa645a09afc72849f45c871f96",
+            "name": "et_xmlfile",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/et_xmlfile-1.0.1-py27_0.tar.bz2",
+            "version": "1.0.1"
+        },
+        "fastcache-1.0.2-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/fastcache-1.0.2-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "94ec892f52e8e11bb8f8a927a22d340c",
+            "name": "fastcache",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/fastcache-1.0.2-py27_1.tar.bz2",
+            "version": "1.0.2"
+        },
+        "flask-0.12-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "click >=2.0",
+                "itsdangerous >=0.21",
+                "jinja2 >=2.4",
+                "python 2.7*",
+                "werkzeug >=0.7"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/flask-0.12-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "f7e889cc017ec83514d34caf2edf143a",
+            "name": "flask",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/flask-0.12-py27_0.tar.bz2",
+            "version": "0.12"
+        },
+        "flask-cors-3.0.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "flask >=0.9",
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/flask-cors-3.0.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e56456ccac8cb70e850a2f1c02d75b71",
+            "name": "flask-cors",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/flask-cors-3.0.2-py27_0.tar.bz2",
+            "version": "3.0.2"
+        },
+        "freetype-2.5.5-2": {
+            "arch": "x86_64",
+            "build": "2",
+            "build_number": 2,
+            "depends": [
+                "libpng >=1.6.27,<1.7",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "FreeType License",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/freetype-2.5.5-2",
+                "type": "hard-link"
+            },
+            "md5": "dde9e65b94586ffb83521a3ebb79583c",
+            "name": "freetype",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/freetype-2.5.5-2.tar.bz2",
+            "version": "2.5.5"
+        },
+        "funcsigs-1.0.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/funcsigs-1.0.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "228dd45c475ee4c409fb3d2c6d6fe4f5",
+            "name": "funcsigs",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/funcsigs-1.0.2-py27_0.tar.bz2",
+            "version": "1.0.2"
+        },
+        "functools32-3.2.3.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "PSF license",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/functools32-3.2.3.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "748f0e2008f9867c1b771321a9e76ab5",
+            "name": "functools32",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/functools32-3.2.3.2-py27_0.tar.bz2",
+            "version": "3.2.3.2"
+        },
+        "futures-3.0.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/futures-3.0.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "03c609fa0941d8499431775548c31dfb",
+            "name": "futures",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/futures-3.0.5-py27_0.tar.bz2",
+            "version": "3.0.5"
+        },
+        "get_terminal_size-1.0.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "backports",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/get_terminal_size-1.0.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "f8138b8c455b89b33adae805ebabab88",
+            "name": "get_terminal_size",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/get_terminal_size-1.0.0-py27_0.tar.bz2",
+            "version": "1.0.0"
+        },
+        "gevent-1.2.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "greenlet >=0.4.10",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/gevent-1.2.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "5843015490471e92324c4ac9a64f1dab",
+            "name": "gevent",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/gevent-1.2.1-py27_0.tar.bz2",
+            "version": "1.2.1"
+        },
+        "glueviz-0.9.1-py27_0": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_0",
+            "build_number": 0,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2016-11-01",
+            "depends": [
+                "astropy >=1.0",
+                "matplotlib >=1.4",
+                "numpy",
+                "pandas >=0.14",
+                "python 2.7*",
+                "python.app",
+                "qtpy >=1.1",
+                "setuptools"
+            ],
+            "fn": "glueviz-0.9.1-py27_0.tar.bz2",
+            "license": "3-clause BSD License",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/glueviz-0.9.1-py27_0",
+                "type": 1
+            },
+            "md5": "843884540d42790697a8f0669f53e140",
+            "name": "glueviz",
+            "noarch": null,
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 2,
+            "schannel": "defaults",
+            "size": 1229868,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/glueviz-0.9.1-py27_0.tar.bz2",
+            "version": "0.9.1",
+            "with_features_depends": {}
+        },
+        "greenlet-0.4.11-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/greenlet-0.4.11-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "cc383b353e9d9ac1356f7af4e306922a",
+            "name": "greenlet",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/greenlet-0.4.11-py27_0.tar.bz2",
+            "version": "0.4.11"
+        },
+        "grin-1.2.1-py27_3": {
+            "arch": "x86_64",
+            "build": "py27_3",
+            "build_number": 3,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/grin-1.2.1-py27_3",
+                "type": "hard-link"
+            },
+            "md5": "8847fe0bbf6068012ea785ee355280c1",
+            "name": "grin",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/grin-1.2.1-py27_3.tar.bz2",
+            "version": "1.2.1"
+        },
+        "h5py-2.6.0-np111py27_2": {
+            "arch": "x86_64",
+            "build": "np111py27_2",
+            "build_number": 2,
+            "depends": [
+                "hdf5 1.8.17",
+                "numpy 1.11*",
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/h5py-2.6.0-np111py27_2",
+                "type": "hard-link"
+            },
+            "md5": "c12a9822730c1e1ca4531cfac3bd8a70",
+            "name": "h5py",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/h5py-2.6.0-np111py27_2.tar.bz2",
+            "version": "2.6.0"
+        },
+        "hdf5-1.8.17-1": {
+            "arch": "x86_64",
+            "build": "1",
+            "build_number": 1,
+            "depends": [
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD-like",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/hdf5-1.8.17-1",
+                "type": "hard-link"
+            },
+            "md5": "6792a8a91a1dc1424eba2770526494b3",
+            "name": "hdf5",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/hdf5-1.8.17-1.tar.bz2",
+            "version": "1.8.17"
+        },
+        "heapdict-1.0.0-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/heapdict-1.0.0-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "0762fd3479deede551f817d16ca4d179",
+            "name": "heapdict",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/heapdict-1.0.0-py27_1.tar.bz2",
+            "version": "1.0.0"
+        },
+        "icu-54.1-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/icu-54.1-0",
+                "type": "hard-link"
+            },
+            "md5": "a258fa9436d5d314b99c1776b523f3d5",
+            "name": "icu",
+            "platform": "osx",
+            "requires": [],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/icu-54.1-0.tar.bz2",
+            "version": "54.1"
+        },
+        "idna-2.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/idna-2.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "d8b48c3920715651a8e74f8fb6da44bc",
+            "name": "idna",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/idna-2.2-py27_0.tar.bz2",
+            "version": "2.2"
+        },
+        "imagesize-0.7.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/imagesize-0.7.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "39f2c6c755abe85c587b546b7e07e090",
+            "name": "imagesize",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/imagesize-0.7.1-py27_0.tar.bz2",
+            "version": "0.7.1"
+        },
+        "ipaddress-1.0.18-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Python Software Foundation License",
+            "license_family": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ipaddress-1.0.18-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "536ea607c5b6aff00bb7fc609a9a1b12",
+            "name": "ipaddress",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ipaddress-1.0.18-py27_0.tar.bz2",
+            "version": "1.0.18"
+        },
+        "ipykernel-4.5.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "ipython >=4.0.0",
+                "jupyter_client",
+                "python 2.7*",
+                "tornado >=4.0",
+                "traitlets >=4.1.0"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ipykernel-4.5.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c5762d89b70d8332e6fc18724dab3276",
+            "name": "ipykernel",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ipykernel-4.5.2-py27_0.tar.bz2",
+            "version": "4.5.2"
+        },
+        "ipython-5.1.0-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "appnope",
+                "decorator",
+                "get_terminal_size",
+                "pathlib2",
+                "pexpect",
+                "pickleshare",
+                "prompt_toolkit >=1.0.3,<2.0.0",
+                "pygments",
+                "python 2.7*",
+                "simplegeneric >0.8",
+                "traitlets >=4.2"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ipython-5.1.0-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "70c2127d76d6735db1f475167863c140",
+            "name": "ipython",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ipython-5.1.0-py27_1.tar.bz2",
+            "version": "5.1.0"
+        },
+        "ipython_genutils-0.1.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ipython_genutils-0.1.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e9094c06fd14c671a34c10a181681325",
+            "name": "ipython_genutils",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ipython_genutils-0.1.0-py27_0.tar.bz2",
+            "version": "0.1.0"
+        },
+        "ipywidgets-5.2.2-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "ipykernel >=4.2.2",
+                "ipython >=4.0.0",
+                "python 2.7*",
+                "traitlets >=4.2.1",
+                "widgetsnbextension >=1.2.6"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD 3-clause",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ipywidgets-5.2.2-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "3b051998d3159a06c4cff23376209aca",
+            "name": "ipywidgets",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ipywidgets-5.2.2-py27_1.tar.bz2",
+            "version": "5.2.2"
+        },
+        "isort-4.2.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "setuptools"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/isort-4.2.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "250102095ef045037832cf36c1ea3499",
+            "name": "isort",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/isort-4.2.5-py27_0.tar.bz2",
+            "version": "4.2.5"
+        },
+        "itsdangerous-0.24-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD License",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/itsdangerous-0.24-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c2b1a6a2c6200c2af8282993bc59196c",
+            "name": "itsdangerous",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/itsdangerous-0.24-py27_0.tar.bz2",
+            "version": "0.24"
+        },
+        "jbig-2.1-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "GPL-2",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jbig-2.1-0",
+                "type": "hard-link"
+            },
+            "md5": "14a3be6a622b2fed0b36430b4b4b544c",
+            "name": "jbig",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jbig-2.1-0.tar.bz2",
+            "version": "2.1"
+        },
+        "jdcal-1.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jdcal-1.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0ea7a323c77cbb52de5095f47db91080",
+            "name": "jdcal",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jdcal-1.3-py27_0.tar.bz2",
+            "version": "1.3"
+        },
+        "jedi-0.9.0-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jedi-0.9.0-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "54209028939c7709fc91ce9173265b7e",
+            "name": "jedi",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jedi-0.9.0-py27_1.tar.bz2",
+            "version": "0.9.0"
+        },
+        "jinja2-2.9.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "markupsafe >=0.23",
+                "python 2.7*",
+                "setuptools"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jinja2-2.9.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "6bc70b9150470ada08a32462849aedcf",
+            "name": "jinja2",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jinja2-2.9.4-py27_0.tar.bz2",
+            "version": "2.9.4"
+        },
+        "jpeg-9b-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Custom free software license",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jpeg-9b-0",
+                "type": "hard-link"
+            },
+            "md5": "9430f9f41041e43672a4668e7225f6f3",
+            "name": "jpeg",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jpeg-9b-0.tar.bz2",
+            "version": "9b"
+        },
+        "jsonschema-2.5.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "functools32",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jsonschema-2.5.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "11d2779e8fdee773abf38591e5e3986f",
+            "name": "jsonschema",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jsonschema-2.5.1-py27_0.tar.bz2",
+            "version": "2.5.1"
+        },
+        "jupyter-1.0.0-py27_3": {
+            "arch": "x86_64",
+            "build": "py27_3",
+            "build_number": 3,
+            "depends": [
+                "ipykernel",
+                "ipywidgets",
+                "jupyter_console",
+                "nbconvert",
+                "notebook",
+                "python 2.7*",
+                "qtconsole"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jupyter-1.0.0-py27_3",
+                "type": "hard-link"
+            },
+            "md5": "3f06f79b592a77fab634d40726a66ba9",
+            "name": "jupyter",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jupyter-1.0.0-py27_3.tar.bz2",
+            "version": "1.0.0"
+        },
+        "jupyter_client-4.4.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "jupyter_core",
+                "python 2.7*",
+                "pyzmq",
+                "traitlets"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jupyter_client-4.4.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "a0be59c583df4fcc657179f988073bc0",
+            "name": "jupyter_client",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jupyter_client-4.4.0-py27_0.tar.bz2",
+            "version": "4.4.0"
+        },
+        "jupyter_console-5.0.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "ipykernel",
+                "ipython",
+                "jupyter_client",
+                "prompt_toolkit >=1.0,<2.0",
+                "pygments",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jupyter_console-5.0.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "3ef80265b2964748557bcdadc607bba2",
+            "name": "jupyter_console",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jupyter_console-5.0.0-py27_0.tar.bz2",
+            "version": "5.0.0"
+        },
+        "jupyter_core-4.2.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "traitlets"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/jupyter_core-4.2.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "4d40e3b4c376282b38c5377eee5ad1f6",
+            "name": "jupyter_core",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/jupyter_core-4.2.1-py27_0.tar.bz2",
+            "version": "4.2.1"
+        },
+        "lazy-object-proxy-1.2.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/lazy-object-proxy-1.2.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e1c870ce9a7be4c094f890f4da0eec08",
+            "name": "lazy-object-proxy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/lazy-object-proxy-1.2.2-py27_0.tar.bz2",
+            "version": "1.2.2"
+        },
+        "libiconv-1.14-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "GPL and LGPL",
+            "license_family": "GPL2",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/libiconv-1.14-0",
+                "type": "hard-link"
+            },
+            "md5": "7eece6c601d25120570bc50acc185439",
+            "name": "libiconv",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/libiconv-1.14-0.tar.bz2",
+            "version": "1.14"
+        },
+        "libpng-1.6.27-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "libpng license",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/libpng-1.6.27-0",
+                "type": "hard-link"
+            },
+            "md5": "f6b16c1a8b9a704fc691baf38256e9a8",
+            "name": "libpng",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/libpng-1.6.27-0.tar.bz2",
+            "version": "1.6.27"
+        },
+        "libtiff-4.0.6-3": {
+            "arch": "x86_64",
+            "build": "3",
+            "build_number": 3,
+            "depends": [
+                "jbig 2.1",
+                "jpeg 9*",
+                "xz 5.2.*",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD-like",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/libtiff-4.0.6-3",
+                "type": "hard-link"
+            },
+            "md5": "6de126c5b033d5cf87fc01f7a0e033a1",
+            "name": "libtiff",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/libtiff-4.0.6-3.tar.bz2",
+            "version": "4.0.6"
+        },
+        "libxml2-2.9.4-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "libiconv",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "license_family": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/libxml2-2.9.4-0",
+                "type": "hard-link"
+            },
+            "md5": "f1747fbea83ba808267c4ae1c94aa6e5",
+            "name": "libxml2",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/libxml2-2.9.4-0.tar.bz2",
+            "version": "2.9.4"
+        },
+        "libxslt-1.1.29-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "libxml2 2.9.4"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/libxslt-1.1.29-0",
+                "type": "hard-link"
+            },
+            "md5": "473b9143e880e223a806f5c668a12dab",
+            "name": "libxslt",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/libxslt-1.1.29-0.tar.bz2",
+            "version": "1.1.29"
+        },
+        "llvmlite-0.15.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "enum34",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/llvmlite-0.15.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "7b0321cc2674799b8d9643d533342e73",
+            "name": "llvmlite",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/llvmlite-0.15.0-py27_0.tar.bz2",
+            "version": "0.15.0"
+        },
+        "locket-0.2.0-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/locket-0.2.0-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "b3bd9947069b4fc8193beb52b77206e0",
+            "name": "locket",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/locket-0.2.0-py27_1.tar.bz2",
+            "version": "0.2.0"
+        },
+        "lxml-3.7.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "libxml2 2.9*",
+                "libxslt 1.1.29",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/lxml-3.7.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "2208747b6ea93623e4bbdbf31e08b435",
+            "name": "lxml",
+            "platform": "osx",
+            "requires": [
+                "libxml2 2.9.4",
+                "libxslt 1.1.29",
+                "python 2.7"
+            ],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/lxml-3.7.2-py27_0.tar.bz2",
+            "version": "3.7.2"
+        },
+        "markupsafe-0.23-py27_2": {
+            "arch": "x86_64",
+            "build": "py27_2",
+            "build_number": 2,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/markupsafe-0.23-py27_2",
+                "type": "hard-link"
+            },
+            "md5": "c98957b3b263054827407ba5d7aa1348",
+            "name": "markupsafe",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/markupsafe-0.23-py27_2.tar.bz2",
+            "version": "0.23"
+        },
+        "matplotlib-2.0.0-np111py27_0": {
+            "arch": "x86_64",
+            "build": "np111py27_0",
+            "build_number": 0,
+            "depends": [
+                "cycler >=0.10.0",
+                "freetype 2.5.*",
+                "functools32",
+                "libpng >=1.6.27,<1.7",
+                "numpy 1.11*",
+                "pyparsing",
+                "pyqt 5.*",
+                "python 2.7*",
+                "python-dateutil",
+                "pytz",
+                "subprocess32"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "PSF-based",
+            "license_family": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/matplotlib-2.0.0-np111py27_0",
+                "type": "hard-link"
+            },
+            "md5": "51cb4ccbaefd39eb5781eef19dbb6cbc",
+            "name": "matplotlib",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/matplotlib-2.0.0-np111py27_0.tar.bz2",
+            "version": "2.0.0"
+        },
+        "mistune-0.7.3-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/mistune-0.7.3-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "d50c363ddef685843cb2663adc81eb0c",
+            "name": "mistune",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/mistune-0.7.3-py27_1.tar.bz2",
+            "version": "0.7.3"
+        },
+        "mkl-2017.0.1-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "proprietary - Intel",
+            "license_family": "Proprietary",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/mkl-2017.0.1-0",
+                "type": "hard-link"
+            },
+            "md5": "435fd00978b584ac45619b6123b0ba9b",
+            "name": "mkl",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/mkl-2017.0.1-0.tar.bz2",
+            "version": "2017.0.1"
+        },
+        "mkl-service-1.1.2-py27_3": {
+            "arch": "x86_64",
+            "build": "py27_3",
+            "build_number": 3,
+            "depends": [
+                "mkl >=11.0",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/mkl-service-1.1.2-py27_3",
+                "type": "hard-link"
+            },
+            "md5": "b5b6c41d085f9b51e21fac8af8711ddb",
+            "name": "mkl-service",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/mkl-service-1.1.2-py27_3.tar.bz2",
+            "version": "1.1.2"
+        },
+        "mpmath-0.19-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/mpmath-0.19-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "1ffe7eb2f72d657f0527c2b6044ed457",
+            "name": "mpmath",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/mpmath-0.19-py27_1.tar.bz2",
+            "version": "0.19"
+        },
+        "multipledispatch-0.4.9-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/multipledispatch-0.4.9-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0c60cdaa95842c1b1ef06078199305a1",
+            "name": "multipledispatch",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/multipledispatch-0.4.9-py27_0.tar.bz2",
+            "version": "0.4.9"
+        },
+        "nbconvert-4.2.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "entrypoints",
+                "jinja2",
+                "jupyter_core",
+                "mistune",
+                "nbformat",
+                "pygments",
+                "python 2.7*",
+                "traitlets"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/nbconvert-4.2.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "80498c92fca7100f2dd14914d75421a6",
+            "name": "nbconvert",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/nbconvert-4.2.0-py27_0.tar.bz2",
+            "version": "4.2.0"
+        },
+        "nbformat-4.2.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "ipython_genutils",
+                "jsonschema >=2.4,!=2.5.0",
+                "jupyter_core",
+                "python 2.7*",
+                "traitlets >=4.1"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/nbformat-4.2.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "6764e9ba4bd16beb7040048d1f092151",
+            "name": "nbformat",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/nbformat-4.2.0-py27_0.tar.bz2",
+            "version": "4.2.0"
+        },
+        "networkx-1.11-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "decorator >=3.4",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/networkx-1.11-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1c39a13ec184aeac43cb9b08c2f278a4",
+            "name": "networkx",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/networkx-1.11-py27_0.tar.bz2",
+            "version": "1.11"
+        },
+        "nltk-3.2.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/nltk-3.2.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "f0c739f7ae412bde4221b0eed526f60f",
+            "name": "nltk",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/nltk-3.2.2-py27_0.tar.bz2",
+            "version": "3.2.2"
+        },
+        "nose-1.3.7-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "LGPL",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/nose-1.3.7-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "5a95cb8f3f644f6fc3f4a05c3dba0037",
+            "name": "nose",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/nose-1.3.7-py27_1.tar.bz2",
+            "version": "1.3.7"
+        },
+        "notebook-4.3.1-py27_0": {
+            "app_cli_opts": [
+                {
+                    "args": "--port %s",
+                    "default": "8080",
+                    "name": "port",
+                    "summary": "Server port ..."
+                }
+            ],
+            "app_entry": "open ${PREFIX}/bin/jupyter_mac.command",
+            "app_type": "web",
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "ipykernel",
+                "ipython_genutils",
+                "jinja2",
+                "jupyter_client",
+                "jupyter_core",
+                "nbconvert",
+                "nbformat",
+                "python 2.7*",
+                "terminado >=0.3.3",
+                "tornado >=4.0",
+                "traitlets"
+            ],
+            "icon": "df7feebede9861a203b480c119e38b49.png",
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/notebook-4.3.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "a907954ddb779a70af31ff04657769e8",
+            "name": "notebook",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "summary": "Jupyter Notebook",
+            "type": "app",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/notebook-4.3.1-py27_0.tar.bz2",
+            "version": "4.3.1"
+        },
+        "numba-0.30.1-np111py27_0": {
+            "arch": "x86_64",
+            "build": "np111py27_0",
+            "build_number": 0,
+            "depends": [
+                "funcsigs",
+                "llvmlite 0.15.*",
+                "numpy 1.11*",
+                "python 2.7*",
+                "singledispatch"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/numba-0.30.1-np111py27_0",
+                "type": "hard-link"
+            },
+            "md5": "84614549be5bcf312ebc3c1643cca979",
+            "name": "numba",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/numba-0.30.1-np111py27_0.tar.bz2",
+            "version": "0.30.1"
+        },
+        "numexpr-2.6.1-np111py27_2": {
+            "arch": "x86_64",
+            "build": "np111py27_2",
+            "build_number": 2,
+            "depends": [
+                "mkl 2017.0.1",
+                "numpy 1.11*",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/numexpr-2.6.1-np111py27_2",
+                "type": "hard-link"
+            },
+            "md5": "319beba50897c829853291c0ca2765dd",
+            "name": "numexpr",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/numexpr-2.6.1-np111py27_2.tar.bz2",
+            "version": "2.6.1"
+        },
+        "numpy-1.11.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "mkl 2017.0.1",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/numpy-1.11.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "79bfffe39ac20fafc1dfc7dd2bdcb316",
+            "name": "numpy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/numpy-1.11.3-py27_0.tar.bz2",
+            "version": "1.11.3"
+        },
+        "numpydoc-0.6.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "sphinx"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/numpydoc-0.6.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "50eafbf95d32663f9839d62b01db872c",
+            "name": "numpydoc",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/numpydoc-0.6.0-py27_0.tar.bz2",
+            "version": "0.6.0"
+        },
+        "odo-0.5.0-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "datashape >=0.5",
+                "multipledispatch >=0.4.7",
+                "networkx",
+                "numpy >=1.7",
+                "pandas >=0.15",
+                "python 2.7*",
+                "toolz >=0.7.3"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/odo-0.5.0-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "bf22fd74cdba7d237ec20f50fde9dc80",
+            "name": "odo",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/odo-0.5.0-py27_1.tar.bz2",
+            "version": "0.5.0"
+        },
+        "olefile-0.44-py27_0": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_0",
+            "build_number": 0,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2017-01-30",
+            "depends": [
+                "python 2.7*"
+            ],
+            "fn": "olefile-0.44-py27_0.tar.bz2",
+            "license": "BSD License",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/olefile-0.44-py27_0",
+                "type": 1
+            },
+            "md5": "b0e1d5e1f5054dc379c2ddf4dc1bcce0",
+            "name": "olefile",
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 0,
+            "schannel": "defaults",
+            "size": 52386,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/olefile-0.44-py27_0.tar.bz2",
+            "version": "0.44",
+            "with_features_depends": {}
+        },
+        "openpyxl-2.4.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "et_xmlfile",
+                "jdcal",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/openpyxl-2.4.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "ecf2e1df163f79831cd096147b98498b",
+            "name": "openpyxl",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/openpyxl-2.4.1-py27_0.tar.bz2",
+            "version": "2.4.1"
+        },
+        "openssl-1.0.2k-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache-style",
+            "license_family": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/openssl-1.0.2k-0",
+                "type": "hard-link"
+            },
+            "md5": "228cdb42dc2a4b7053e6bf0f1afa1c75",
+            "name": "openssl",
+            "platform": "osx",
+            "requires": [],
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/openssl-1.0.2k-0.tar.bz2",
+            "version": "1.0.2k"
+        },
+        "pandas-0.19.2-np111py27_1": {
+            "arch": "x86_64",
+            "build": "np111py27_1",
+            "build_number": 1,
+            "depends": [
+                "numpy 1.11*",
+                "python 2.7*",
+                "python-dateutil",
+                "pytz"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pandas-0.19.2-np111py27_1",
+                "type": "hard-link"
+            },
+            "md5": "a280d96050f991a3cf93a139a6838d3a",
+            "name": "pandas",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pandas-0.19.2-np111py27_1.tar.bz2",
+            "version": "0.19.2"
+        },
+        "partd-0.3.7-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "locket",
+                "python 2.7*",
+                "toolz"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/partd-0.3.7-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "684f5f89706217e0632af8a060c8990c",
+            "name": "partd",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/partd-0.3.7-py27_0.tar.bz2",
+            "version": "0.3.7"
+        },
+        "path.py-10.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/path.py-10.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "4797e11ef8ff01f7e976cd4517a7b8cc",
+            "name": "path.py",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/path.py-10.0-py27_0.tar.bz2",
+            "version": "10.0"
+        },
+        "pathlib2-2.2.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "scandir",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pathlib2-2.2.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "370aa7d0f1f570335481a91a9abecd4e",
+            "name": "pathlib2",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pathlib2-2.2.0-py27_0.tar.bz2",
+            "version": "2.2.0"
+        },
+        "patsy-0.4.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "numpy",
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/patsy-0.4.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1612ecc140bea08513b5eac5f13d59d3",
+            "name": "patsy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/patsy-0.4.1-py27_0.tar.bz2",
+            "version": "0.4.1"
+        },
+        "pep8-1.7.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pep8-1.7.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "9cbc7cd79dba4bc4d2e686829e1f94a3",
+            "name": "pep8",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pep8-1.7.0-py27_0.tar.bz2",
+            "version": "1.7.0"
+        },
+        "pexpect-4.2.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "ptyprocess >=0.5",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "ISC",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pexpect-4.2.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "832a0a8f96666429b09ecbc9ab0d303f",
+            "name": "pexpect",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pexpect-4.2.1-py27_0.tar.bz2",
+            "version": "4.2.1"
+        },
+        "pickleshare-0.7.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "path.py",
+                "pathlib2",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pickleshare-0.7.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "ca8660efc5c44d3ed82225cd4030d562",
+            "name": "pickleshare",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pickleshare-0.7.4-py27_0.tar.bz2",
+            "version": "0.7.4"
+        },
+        "pillow-4.0.0-py27_1": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_1",
+            "build_number": 1,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2017-02-14",
+            "depends": [
+                "freetype 2.5.*",
+                "jpeg 9*",
+                "libtiff 4.0.*",
+                "olefile",
+                "python 2.7*",
+                "zlib 1.2.*"
+            ],
+            "fn": "pillow-4.0.0-py27_1.tar.bz2",
+            "license": "PIL license",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pillow-4.0.0-py27_1",
+                "type": 1
+            },
+            "md5": "0870144a9d720df60849d25509f6d797",
+            "name": "pillow",
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 0,
+            "schannel": "defaults",
+            "size": 496643,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pillow-4.0.0-py27_1.tar.bz2",
+            "version": "4.0.0",
+            "with_features_depends": {}
+        },
+        "pip-9.0.1-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*",
+                "setuptools",
+                "wheel"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pip-9.0.1-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "b8b89c6ec61a18b86aaa9a156fa2982f",
+            "name": "pip",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pip-9.0.1-py27_1.tar.bz2",
+            "version": "9.0.1"
+        },
+        "ply-3.9-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ply-3.9-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "7b7e4101dabee025d7e70a35a3576bd3",
+            "name": "ply",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ply-3.9-py27_0.tar.bz2",
+            "version": "3.9"
+        },
+        "prompt_toolkit-1.0.9-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "six >=1.9.0",
+                "wcwidth"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/prompt_toolkit-1.0.9-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "3cebd44f50d7030d0d2a9a260becc001",
+            "name": "prompt_toolkit",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/prompt_toolkit-1.0.9-py27_0.tar.bz2",
+            "version": "1.0.9"
+        },
+        "protobuf-2.6.1-py27_1": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_1",
+            "build_number": 1,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2015-03-20",
+            "depends": [
+                "python 2.7*"
+            ],
+            "fn": "protobuf-2.6.1-py27_1.tar.bz2",
+            "license": "New BSD License",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/protobuf-2.6.1-py27_1",
+                "type": 1
+            },
+            "md5": "b74626026ce57b6afffc1c99c6034106",
+            "name": "protobuf",
+            "noarch": null,
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 1,
+            "requires": [
+                "python 2.7"
+            ],
+            "schannel": "defaults",
+            "size": 115737,
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/protobuf-2.6.1-py27_1.tar.bz2",
+            "version": "2.6.1",
+            "with_features_depends": {}
+        },
+        "psutil-5.0.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/psutil-5.0.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "a8ec1562ff8d418d9caeab3f5abc2232",
+            "name": "psutil",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/psutil-5.0.1-py27_0.tar.bz2",
+            "version": "5.0.1"
+        },
+        "ptyprocess-0.5.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "ISC",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ptyprocess-0.5.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "8d9b601abb7161c9bcea3ae33e314fb7",
+            "name": "ptyprocess",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ptyprocess-0.5.1-py27_0.tar.bz2",
+            "version": "0.5.1"
+        },
+        "py-1.4.32-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/py-1.4.32-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "e8e41a861c7fe0c2b847324d68253e0f",
+            "name": "py",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/py-1.4.32-py27_0.tar.bz2",
+            "version": "1.4.32"
+        },
+        "pyasn1-0.1.9-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyasn1-0.1.9-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "623bf2615a0cc2ecba6ea2d98235055e",
+            "name": "pyasn1",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyasn1-0.1.9-py27_0.tar.bz2",
+            "version": "0.1.9"
+        },
+        "pyaudio-0.2.7-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyaudio-0.2.7-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "9ea00bd2210a5b26743510180f76663e",
+            "name": "pyaudio",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyaudio-0.2.7-py27_0.tar.bz2",
+            "version": "0.2.7"
+        },
+        "pycosat-0.6.1-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pycosat-0.6.1-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "b7192a4800d363fc445500a4c1e07a80",
+            "name": "pycosat",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pycosat-0.6.1-py27_1.tar.bz2",
+            "version": "0.6.1"
+        },
+        "pycparser-2.17-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pycparser-2.17-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c1b279b8c856210285d993327524152b",
+            "name": "pycparser",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pycparser-2.17-py27_0.tar.bz2",
+            "version": "2.17"
+        },
+        "pycrypto-2.6.1-py27_4": {
+            "arch": "x86_64",
+            "build": "py27_4",
+            "build_number": 4,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Public-Domain",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pycrypto-2.6.1-py27_4",
+                "type": "hard-link"
+            },
+            "md5": "af9c0e86229821c2bb7535eee7ea0c6a",
+            "name": "pycrypto",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pycrypto-2.6.1-py27_4.tar.bz2",
+            "version": "2.6.1"
+        },
+        "pycurl-7.43.0-py27_2": {
+            "arch": "x86_64",
+            "build": "py27_2",
+            "build_number": 2,
+            "depends": [
+                "curl 7.52.*",
+                "openssl 1.0.2*",
+                "python 2.7*",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "LGPL, MIT",
+            "license_family": "LGPL",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pycurl-7.43.0-py27_2",
+                "type": "hard-link"
+            },
+            "md5": "c1e4a68de45e38bea80bd1fe9da38a0e",
+            "name": "pycurl",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pycurl-7.43.0-py27_2.tar.bz2",
+            "version": "7.43.0"
+        },
+        "pyflakes-1.5.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyflakes-1.5.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "74fd32cfbd2f08d164a8f174b85979c7",
+            "name": "pyflakes",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyflakes-1.5.0-py27_0.tar.bz2",
+            "version": "1.5.0"
+        },
+        "pygments-2.1.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pygments-2.1.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1019c442d24ff2e66daedef881d7e5f3",
+            "name": "pygments",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pygments-2.1.3-py27_0.tar.bz2",
+            "version": "2.1.3"
+        },
+        "pylint-1.6.4-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "astroid >=1.4.1,<1.5.0",
+                "isort >=4.2.5",
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "GPL",
+            "license_family": "GPL2",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pylint-1.6.4-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "0f1473fd07f18289f4008b8f58167e34",
+            "name": "pylint",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pylint-1.6.4-py27_1.tar.bz2",
+            "version": "1.6.4"
+        },
+        "pyopenssl-16.2.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "cryptography >=1.3.4",
+                "python 2.7*",
+                "six >=1.5.2"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache Software License",
+            "license_family": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyopenssl-16.2.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "d04138009190ad2a77f32e501862bf30",
+            "name": "pyopenssl",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyopenssl-16.2.0-py27_0.tar.bz2",
+            "version": "16.2.0"
+        },
+        "pyparsing-2.1.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyparsing-2.1.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "2238fcf2c035254741c1135a0cb4c9c9",
+            "name": "pyparsing",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyparsing-2.1.4-py27_0.tar.bz2",
+            "version": "2.1.4"
+        },
+        "pyqt-5.6.0-py27_2": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_2",
+            "build_number": 2,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2017-01-21",
+            "depends": [
+                "python 2.7*",
+                "qt 5.6.*",
+                "sip >=4.18"
+            ],
+            "fn": "pyqt-5.6.0-py27_2.tar.bz2",
+            "license": "Commercial, GPLv2, GPLv3",
+            "license_family": "GPL3",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyqt-5.6.0-py27_2",
+                "type": 1
+            },
+            "md5": "b93fcdfe718a1a589e9d55f92ad996f8",
+            "name": "pyqt",
+            "noarch": null,
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 1,
+            "schannel": "defaults",
+            "size": 4460963,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyqt-5.6.0-py27_2.tar.bz2",
+            "version": "5.6.0",
+            "with_features_depends": {}
+        },
+        "pytables-3.3.0-np111py27_0": {
+            "arch": "x86_64",
+            "build": "np111py27_0",
+            "build_number": 0,
+            "depends": [
+                "hdf5 1.8.17",
+                "numexpr",
+                "numpy 1.11*",
+                "python 2.7*",
+                "six",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pytables-3.3.0-np111py27_0",
+                "type": "hard-link"
+            },
+            "md5": "21431f3fe55daf4a984ccbbb48097c22",
+            "name": "pytables",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pytables-3.3.0-np111py27_0.tar.bz2",
+            "version": "3.3.0"
+        },
+        "pytest-3.0.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "py >=1.4.29",
+                "python 2.7*",
+                "setuptools"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pytest-3.0.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "9c924ca95dff4ac94af39dcc0fedb6fc",
+            "name": "pytest",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pytest-3.0.5-py27_0.tar.bz2",
+            "version": "3.0.5"
+        },
+        "python-2.7.13-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "openssl 1.0.2*",
+                "readline 6.2",
+                "sqlite 3.13.*",
+                "tk 8.5.18",
+                "zlib 1.2.*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/python-2.7.13-0",
+                "type": "hard-link"
+            },
+            "md5": "ed556ceab44dadfac87200a6c711f3d8",
+            "name": "python",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/python-2.7.13-0.tar.bz2",
+            "version": "2.7.13"
+        },
+        "python-dateutil-2.6.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/python-dateutil-2.6.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "ccf781e8b07232ad6b7b8859ab2eba9a",
+            "name": "python-dateutil",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/python-dateutil-2.6.0-py27_0.tar.bz2",
+            "version": "2.6.0"
+        },
+        "python.app-1.2-py27_4": {
+            "arch": "x86_64",
+            "build": "py27_4",
+            "build_number": 4,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/python.app-1.2-py27_4",
+                "type": "hard-link"
+            },
+            "md5": "1c7d5c9ba62c7fdb7ab4559b1d430c67",
+            "name": "python.app",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/python.app-1.2-py27_4.tar.bz2",
+            "version": "1.2"
+        },
+        "pytz-2016.10-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pytz-2016.10-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "8a43718bb0b711243392d77c99aa7541",
+            "name": "pytz",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pytz-2016.10-py27_0.tar.bz2",
+            "version": "2016.10"
+        },
+        "pyyaml-3.12-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "yaml 0.1.6"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyyaml-3.12-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "aa476ce111cf5aca8a9dc3e0522295a5",
+            "name": "pyyaml",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyyaml-3.12-py27_0.tar.bz2",
+            "version": "3.12"
+        },
+        "pyzmq-16.0.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "LGPL and BSD",
+            "license_family": "LGPL",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/pyzmq-16.0.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "bcac815c23f12ef7699166d958ebd678",
+            "name": "pyzmq",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/pyzmq-16.0.2-py27_0.tar.bz2",
+            "version": "16.0.2"
+        },
+        "qt-5.6.2-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "icu 54.*",
+                "zlib 1.2*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "LGPLv3",
+            "license_family": "LGPL",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/qt-5.6.2-0",
+                "type": "hard-link"
+            },
+            "md5": "89fce18495f504a1d51f94417f645983",
+            "name": "qt",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/qt-5.6.2-0.tar.bz2",
+            "version": "5.6.2"
+        },
+        "qtawesome-0.4.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "qtpy",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/qtawesome-0.4.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "3ae7974c5681e8ab49df1df475328b86",
+            "name": "qtawesome",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/qtawesome-0.4.3-py27_0.tar.bz2",
+            "version": "0.4.3"
+        },
+        "qtconsole-4.2.1-py27_1": {
+            "app_entry": "jupyter-qtconsole",
+            "app_type": "desk",
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "ipykernel >=4.1",
+                "jupyter_client >=4.1",
+                "jupyter_core",
+                "pygments",
+                "pyqt 5.*",
+                "python 2.7*",
+                "traitlets"
+            ],
+            "icon": "df7feebede9861a203b480c119e38b49.png",
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/qtconsole-4.2.1-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "7d547bdd733a1ee3a6451ffd62ca4ec5",
+            "name": "qtconsole",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "summary": "Jupyter Qt console",
+            "type": "app",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/qtconsole-4.2.1-py27_1.tar.bz2",
+            "version": "4.2.1"
+        },
+        "qtpy-1.2.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/qtpy-1.2.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "21c7c7a4337c960d14775ae50b9ddaa0",
+            "name": "qtpy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/qtpy-1.2.1-py27_0.tar.bz2",
+            "version": "1.2.1"
+        },
+        "readline-6.2-2": {
+            "arch": "x86_64",
+            "build": "2",
+            "build_number": 2,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/readline-6.2-2",
+                "type": "hard-link"
+            },
+            "md5": "0801e644bd0c1cd7f0923b56c52eb7f7",
+            "name": "readline",
+            "platform": "osx",
+            "requires": [],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/readline-6.2-2.tar.bz2",
+            "version": "6.2"
+        },
+        "redis-3.2.0-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/redis-3.2.0-0",
+                "type": "hard-link"
+            },
+            "md5": "c5e7cd27a1d89282cc83115adbd1e9b9",
+            "name": "redis",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/redis-3.2.0-0.tar.bz2",
+            "version": "3.2.0"
+        },
+        "redis-py-2.10.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "redis"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT (https://github.com/andymccurdy/redis-py/blob/master/LICENSE)",
+            "license_family": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/redis-py-2.10.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "acc6b2633ce0463c9dc876191f40858f",
+            "name": "redis-py",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/redis-py-2.10.5-py27_0.tar.bz2",
+            "version": "2.10.5"
+        },
+        "requests-2.12.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache Software License",
+            "license_family": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/requests-2.12.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "3ec8449a3b431223c185ca572eeacb7c",
+            "name": "requests",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/requests-2.12.4-py27_0.tar.bz2",
+            "version": "2.12.4"
+        },
+        "rope-0.9.4-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "GPL",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/rope-0.9.4-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "63e999bbd88fc69dae23c145b4cf2276",
+            "name": "rope",
+            "platform": "osx",
+            "requires": [
+                "python 2.7"
+            ],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/rope-0.9.4-py27_1.tar.bz2",
+            "version": "0.9.4"
+        },
+        "ruamel_yaml-0.11.14-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*",
+                "yaml 0.1.6"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ruamel_yaml-0.11.14-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "22857f700192b9ab1688ed415e819b97",
+            "name": "ruamel_yaml",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ruamel_yaml-0.11.14-py27_1.tar.bz2",
+            "version": "0.11.14"
+        },
+        "scandir-1.4-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD License",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/scandir-1.4-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0d768bac4da0606a44294fa140b63e5a",
+            "name": "scandir",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/scandir-1.4-py27_0.tar.bz2",
+            "version": "1.4"
+        },
+        "scikit-image-0.12.3-np111py27_1": {
+            "arch": "x86_64",
+            "build": "np111py27_1",
+            "build_number": 1,
+            "depends": [
+                "matplotlib >=1.3.1",
+                "networkx >=1.8",
+                "numpy 1.11*",
+                "pillow >=2.1",
+                "python 2.7*",
+                "scipy",
+                "six >=1.7.3"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/scikit-image-0.12.3-np111py27_1",
+                "type": "hard-link"
+            },
+            "md5": "2ce459ad9e3cb106d3e7c5fa6aed7558",
+            "name": "scikit-image",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/scikit-image-0.12.3-np111py27_1.tar.bz2",
+            "version": "0.12.3"
+        },
+        "scikit-learn-0.18.1-np111py27_1": {
+            "arch": "x86_64",
+            "build": "np111py27_1",
+            "build_number": 1,
+            "depends": [
+                "mkl 2017.0.1",
+                "numpy 1.11*",
+                "python 2.7*",
+                "scipy"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/scikit-learn-0.18.1-np111py27_1",
+                "type": "hard-link"
+            },
+            "md5": "b7a49f94e3dcfda05c0fe85c0be69dde",
+            "name": "scikit-learn",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/scikit-learn-0.18.1-np111py27_1.tar.bz2",
+            "version": "0.18.1"
+        },
+        "scipy-0.18.1-np111py27_1": {
+            "arch": "x86_64",
+            "build": "np111py27_1",
+            "build_number": 1,
+            "depends": [
+                "mkl 2017.0.1",
+                "numpy 1.11*",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/scipy-0.18.1-np111py27_1",
+                "type": "hard-link"
+            },
+            "md5": "fd4c32f15aa89cadb960d1116278b3e5",
+            "name": "scipy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/scipy-0.18.1-np111py27_1.tar.bz2",
+            "version": "0.18.1"
+        },
+        "seaborn-0.7.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "matplotlib",
+                "numpy",
+                "pandas",
+                "python 2.7*",
+                "scipy"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/seaborn-0.7.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "5ff81c834c8ccd420d45b6c7f717ce2a",
+            "name": "seaborn",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/seaborn-0.7.1-py27_0.tar.bz2",
+            "version": "0.7.1"
+        },
+        "setuptools-27.2.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/setuptools-27.2.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0063c540d11df7ae01d19346b87509f7",
+            "name": "setuptools",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/setuptools-27.2.0-py27_0.tar.bz2",
+            "version": "27.2.0"
+        },
+        "simplegeneric-0.8.1-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "ZPL 2.1",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/simplegeneric-0.8.1-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "b3e5b9b244d74325cc2fd5034611e8cf",
+            "name": "simplegeneric",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/simplegeneric-0.8.1-py27_1.tar.bz2",
+            "version": "0.8.1"
+        },
+        "singledispatch-3.4.0.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/singledispatch-3.4.0.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "38fc3c4659312843bae5d170225652a5",
+            "name": "singledispatch",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/singledispatch-3.4.0.3-py27_0.tar.bz2",
+            "version": "3.4.0.3"
+        },
+        "sip-4.18-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "GPL3",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/sip-4.18-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "b49f80e88dcbdd52a764c6fa84df29c9",
+            "name": "sip",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/sip-4.18-py27_0.tar.bz2",
+            "version": "4.18"
+        },
+        "six-1.10.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/six-1.10.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "ce75af4aa6c25c007515b4651f469394",
+            "name": "six",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/six-1.10.0-py27_0.tar.bz2",
+            "version": "1.10.0"
+        },
+        "snowballstemmer-1.2.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/snowballstemmer-1.2.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "739e7f2756761d9c509475bcdf670e0c",
+            "name": "snowballstemmer",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/snowballstemmer-1.2.1-py27_0.tar.bz2",
+            "version": "1.2.1"
+        },
+        "sockjs-tornado-1.0.3-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*",
+                "tornado >=2.1.1"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/sockjs-tornado-1.0.3-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "b18c4cc76929faea38d82e072fd3ccd5",
+            "name": "sockjs-tornado",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/sockjs-tornado-1.0.3-py27_0.tar.bz2",
+            "version": "1.0.3"
+        },
+        "sphinx-1.5.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "alabaster >=0.7,<0.8",
+                "babel >=1.3,!=2.0",
+                "docutils >=0.11",
+                "imagesize",
+                "jinja2",
+                "pygments >=2.0",
+                "python 2.7*",
+                "requests",
+                "six",
+                "snowballstemmer >=1.1"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/sphinx-1.5.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "d874d30fcab31406a57b36ed4ba905f3",
+            "name": "sphinx",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/sphinx-1.5.1-py27_0.tar.bz2",
+            "version": "1.5.1"
+        },
+        "spyder-3.1.3-py27_0": {
+            "arch": "x86_64",
+            "auth": null,
+            "build": "py27_0",
+            "build_number": 0,
+            "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+            "date": "2017-02-20",
+            "depends": [
+                "chardet >=2.0.0",
+                "jedi >=0.8",
+                "nbconvert",
+                "numpydoc",
+                "pep8",
+                "pickleshare",
+                "psutil",
+                "pyflakes",
+                "pygments >=2.0",
+                "pylint",
+                "pyqt",
+                "python 2.7*",
+                "python.app",
+                "pyzmq",
+                "qtawesome >=0.4.1",
+                "qtconsole >=4.2",
+                "qtpy >=1.1",
+                "rope",
+                "sphinx"
+            ],
+            "fn": "spyder-3.1.3-py27_0.tar.bz2",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/spyder-3.1.3-py27_0",
+                "type": 1
+            },
+            "md5": "b527ac9e299db5d7473da1a46dc6fd0f",
+            "name": "spyder",
+            "noarch": null,
+            "platform": "darwin",
+            "preferred_env": null,
+            "priority": 1,
+            "schannel": "defaults",
+            "size": 3189544,
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/spyder-3.1.3-py27_0.tar.bz2",
+            "version": "3.1.3",
+            "with_features_depends": {}
+        },
+        "sqlalchemy-1.1.5-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/sqlalchemy-1.1.5-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "533d6a065b7916ebf7d52c11da97e2d6",
+            "name": "sqlalchemy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/sqlalchemy-1.1.5-py27_0.tar.bz2",
+            "version": "1.1.5"
+        },
+        "sqlite-3.13.0-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+            "license_family": "Public-Domain",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/sqlite-3.13.0-0",
+                "type": "hard-link"
+            },
+            "md5": "dacf9558b650e37c4ec9003fe7f6b405",
+            "name": "sqlite",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/sqlite-3.13.0-0.tar.bz2",
+            "version": "3.13.0"
+        },
+        "ssl_match_hostname-3.4.0.2-py27_1": {
+            "arch": "x86_64",
+            "build": "py27_1",
+            "build_number": 1,
+            "depends": [
+                "backports",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/ssl_match_hostname-3.4.0.2-py27_1",
+                "type": "hard-link"
+            },
+            "md5": "51240dbd02f2f8b059ae17ab4b5cafa1",
+            "name": "ssl_match_hostname",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/ssl_match_hostname-3.4.0.2-py27_1.tar.bz2",
+            "version": "3.4.0.2"
+        },
+        "statsmodels-0.6.1-np111py27_1": {
+            "arch": "x86_64",
+            "build": "np111py27_1",
+            "build_number": 1,
+            "depends": [
+                "numpy 1.11*",
+                "pandas",
+                "patsy",
+                "python 2.7*",
+                "scipy"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/statsmodels-0.6.1-np111py27_1",
+                "type": "hard-link"
+            },
+            "md5": "4c02f4e3ed36d105fbd48d67f0819004",
+            "name": "statsmodels",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/statsmodels-0.6.1-np111py27_1.tar.bz2",
+            "version": "0.6.1"
+        },
+        "subprocess32-3.2.7-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Python Software Foundation License",
+            "license_family": "PSF",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/subprocess32-3.2.7-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "60aff2cbfe01a53e3d122cd95100176c",
+            "name": "subprocess32",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/subprocess32-3.2.7-py27_0.tar.bz2",
+            "version": "3.2.7"
+        },
+        "sympy-1.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "mpmath >=0.19",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/sympy-1.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "0916165678d98a334f5a749c1cb3457e",
+            "name": "sympy",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/sympy-1.0-py27_0.tar.bz2",
+            "version": "1.0"
+        },
+        "terminado-0.6-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "ptyprocess",
+                "python 2.7*",
+                "tornado >=4.0"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/terminado-0.6-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "45fbff5477bf057726d052f236103d9b",
+            "name": "terminado",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/terminado-0.6-py27_0.tar.bz2",
+            "version": "0.6"
+        },
+        "tk-8.5.18-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD-style",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/tk-8.5.18-0",
+                "type": "hard-link"
+            },
+            "md5": "6de7b2d4c4c9cc0f60150da541c0d843",
+            "name": "tk",
+            "platform": "osx",
+            "requires": [],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/tk-8.5.18-0.tar.bz2",
+            "version": "8.5.18"
+        },
+        "toolz-0.8.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/toolz-0.8.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "46080657fcd8929992903dc69360258c",
+            "name": "toolz",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/toolz-0.8.2-py27_0.tar.bz2",
+            "version": "0.8.2"
+        },
+        "tornado-4.4.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "backports_abc",
+                "python 2.7*",
+                "singledispatch",
+                "ssl_match_hostname"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Apache",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/tornado-4.4.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "ef3a5a3809d0984b4fbc2587ec9b7a27",
+            "name": "tornado",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/tornado-4.4.2-py27_0.tar.bz2",
+            "version": "4.4.2"
+        },
+        "traitlets-4.3.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "decorator",
+                "enum34",
+                "ipython_genutils",
+                "python 2.7*",
+                "six"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/traitlets-4.3.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "d0cc328a1e1d10aeacbd3cfcf06fbfed",
+            "name": "traitlets",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/traitlets-4.3.1-py27_0.tar.bz2",
+            "version": "4.3.1"
+        },
+        "unicodecsv-0.14.1-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/unicodecsv-0.14.1-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "78abb3198da7509ac9f44ad8c669b74c",
+            "name": "unicodecsv",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/unicodecsv-0.14.1-py27_0.tar.bz2",
+            "version": "0.14.1"
+        },
+        "wcwidth-0.1.7-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/wcwidth-0.1.7-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "8e7030d983cc88e94c5fb32210865bb1",
+            "name": "wcwidth",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/wcwidth-0.1.7-py27_0.tar.bz2",
+            "version": "0.1.7"
+        },
+        "werkzeug-0.11.15-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/werkzeug-0.11.15-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1dad21670050dc8549141db4f3643fe2",
+            "name": "werkzeug",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/werkzeug-0.11.15-py27_0.tar.bz2",
+            "version": "0.11.15"
+        },
+        "wheel-0.29.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/wheel-0.29.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "2c2d6756adc65c38f83d355adef6cfab",
+            "name": "wheel",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/wheel-0.29.0-py27_0.tar.bz2",
+            "version": "0.29.0"
+        },
+        "widgetsnbextension-1.2.6-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "notebook >=4.2.0",
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD 3-clause",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/widgetsnbextension-1.2.6-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "aa9ceb688eda22ba3c7a02975d97d94c",
+            "name": "widgetsnbextension",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/widgetsnbextension-1.2.6-py27_0.tar.bz2",
+            "version": "1.2.6"
+        },
+        "wrapt-1.10.8-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/wrapt-1.10.8-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "34825a5a8f6df5e75a78bf145e60d35f",
+            "name": "wrapt",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/wrapt-1.10.8-py27_0.tar.bz2",
+            "version": "1.10.8"
+        },
+        "xlrd-1.0.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/xlrd-1.0.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "5bca4e459c5d5e8eba5a39cf15fc5042",
+            "name": "xlrd",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/xlrd-1.0.0-py27_0.tar.bz2",
+            "version": "1.0.0"
+        },
+        "xlsxwriter-0.9.6-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/xlsxwriter-0.9.6-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "c347773a094e036cbe1bf1be0b8bc88b",
+            "name": "xlsxwriter",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/xlsxwriter-0.9.6-py27_0.tar.bz2",
+            "version": "0.9.6"
+        },
+        "xlwings-0.10.2-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "appscript >=1.0.1",
+                "psutil >=2.0",
+                "python 2.7*",
+                "pytz"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "3-clause BSD",
+            "license_family": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/xlwings-0.10.2-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "8514eff16e6bea8f2dac21e02e9b2697",
+            "name": "xlwings",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/xlwings-0.10.2-py27_0.tar.bz2",
+            "version": "0.10.2"
+        },
+        "xlwt-1.2.0-py27_0": {
+            "arch": "x86_64",
+            "build": "py27_0",
+            "build_number": 0,
+            "depends": [
+                "python 2.7*"
+            ],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "BSD",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/xlwt-1.2.0-py27_0",
+                "type": "hard-link"
+            },
+            "md5": "1386fb682f81bb2815dacd5b009b734d",
+            "name": "xlwt",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/xlwt-1.2.0-py27_0.tar.bz2",
+            "version": "1.2.0"
+        },
+        "xz-5.2.2-1": {
+            "arch": "x86_64",
+            "build": "1",
+            "build_number": 1,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "Public-Domain, GPL",
+            "license_family": "GPL2",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/xz-5.2.2-1",
+                "type": "hard-link"
+            },
+            "md5": "c8d5d3f406b5309e575c6848091f2fd2",
+            "name": "xz",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/xz-5.2.2-1.tar.bz2",
+            "version": "5.2.2"
+        },
+        "yaml-0.1.6-0": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "MIT",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/yaml-0.1.6-0",
+                "type": "hard-link"
+            },
+            "md5": "7b1c018bf975c88fbe9df6292bf370b1",
+            "name": "yaml",
+            "platform": "osx",
+            "requires": [],
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/yaml-0.1.6-0.tar.bz2",
+            "version": "0.1.6"
+        },
+        "zlib-1.2.8-3": {
+            "arch": "x86_64",
+            "build": "3",
+            "build_number": 3,
+            "depends": [],
+            "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64",
+            "license": "zlib (http://zlib.net/zlib_license.html)",
+            "license_family": "Other",
+            "link": {
+                "source": "/Users/jiawang/anaconda2/pkgs/zlib-1.2.8-3",
+                "type": "hard-link"
+            },
+            "md5": "49b15627e7048317806615d519a5b581",
+            "name": "zlib",
+            "platform": "osx",
+            "subdir": "osx-64",
+            "url": "https://repo.continuum.io/pkgs/free/osx-64/zlib-1.2.8-3.tar.bz2",
+            "version": "1.2.8"
+        }
+    }
+}

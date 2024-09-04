@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+
+<link rel="icon"
+      type="image/png"
+      href="images/favicon.png" />
+
+<script src="http://opodis2018.campus.ciencias.ulisboa.pt/jquery/jquery.js"></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+<link rel="stylesheet" href="css/bootstrap.css" />
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OPODIS is an open forum for the exchange of state-of-the-art knowledge on distributed
+                                      computing and distributed computer systems. All aspects of distributed systems are within the
+                                      scope of OPODIS, including theory, specification, design, performance, and system building.">
+	<meta name="author" content="Ibéria Medeiros, Pedro Marques" >
+<!--	<meta name="google-site-verification" content="nv2dj8TZqODCBet2mF46sxFdqZg6RUCn0iwMvgQg7Iw" /> -->
+
+    <title>OPODIS 2018 - The 22nd International Conference on Principles of Distributed Systems</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template
+    <link href="css/opodis.css" rel="stylesheet">-->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="http://opodis2018.campus.ciencias.ulisboa.pt/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body role="document">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">OPODIS2018</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a href="index.html">Home</a></li>
+            <li><a href="organization.html">Committees</a></li>
+            <li class="dropdown">
+              <a href="cfp.html#" class="dropdown-toogle" data-toggle="dropdown">Info for authors <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="cfp.html">Call for papers</a></li>
+      <!-- We remove this menu item because we don't have information about it -->
+      <!--          <li><a href="cfwt.html">Call for workshops and tutorials</a></li> -->
+                <li><a href="dates.html">Important dates</a></li>
+                <li><a href="./subHere.html">Submission information</a></li>
+              </ul>
+            </li>
+
+
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="http://opodis2017.campus.ciencias.ulisboa.pt" target="_blank">Past edition</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/car1.jpg" alt="The 22nd International Conference on" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 22nd International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">17-19 December 2018</h3>
+		  <h3 align="right">Hong Kong</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/car2.jpg" alt="Principles of Distributed Systems" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 22nd International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">17-19 December 2018</h3>
+		  <h3 align="right">Hong Kong</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/car3.jpg" alt="Call for papers" style="width:100%;">
+		<div class="carousel-caption">
+          <h3 align="right">The 22nd International</h3>
+		  <h2 align="right">Conference on Principles of Distributed Systems</h2>
+          <h3 align="right">17-19 December 2018</h3>
+		  <h3 align="right">Hong Kong</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="cfp.html#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="cfp.html#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<div class="container theme-showcase" role="main">
+
+
+<div class="container theme-showcase" role="main">
+
+		<div class="page-header">
+			<h3>Location</h3>
+			<p align="justify">This edition of the OPODIS conference will take place at <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="_blank">The Hong Kong Polytechnic University
+(PolyU)</a>.
+        </p>
+			<p align="justify">
+        The University campus is strategically located in Hung Hom, Kowloon, which is at the
+        center of the city, adjacent to the Cross Harbour Tunnel and easily accessible by public
+        transportation.			</p>
+
+                        <br><br>
+						<center>
+                        <iframe width="600"
+                          height="450"
+                          frameborder="0" style="border:0"
+                          src="https://maps.google.com/maps?q=polyu&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen>
+						  </iframe>
+						  </center>
+		</div>
+		<div class="page-header">
+			<h3>Address</h3>
+			<!--<p align="justify"><a href="http://di.fc.ul.pt/" target="_blank">Departamento de Informatica</a><br>-->
+      The Hong Kong Polytechnic University<br>
+      11 Yuk Choi Road<br>
+      Hung Hom, Kowloon<br>
+      Hong Kong<br>
+
+
+		</div>
+
+		<div class="page-header">
+			<h3>Getting to PolyU</h3><br>
+
+            <h4>MTR</h4>
+            <p align="justify">Head for Hung Hom Station on the East Rail Line, then take the footbridge at Exit A1 to reach our main campus.
+              <br><br>(Please refer to <a href="http://www.mtr.com.hk/en/customer/main/index.html">MTR for interchange information)</a></p>
+              <br><br>
+						<h4>Buses</h4>
+            <p align="justify">For public buses that run through the Cross Harbour Tunnel - get off at the stop at the
+entrance/exit of the Tunnel on the Kowloon side.
+              <br><br>
+
+              (Details of bus routes are available from <a href="http://www.kmb.hk/en/">Kowloon Motor Bus</a> and  <a href="http://www.nwstbus.com.hk/home/default.aspx?intLangID=1">Citybus and New World FirstBus </a> )
+
+            </p>
+
+
+            <br><br>
+						<h4>Taxis</h4>
+						<p align="justify">Pick-up and drop-off at the entrance on Cheong Wan Road.</p>
+
+		</div>
+
+	<div class="page-header">
+			<h3>Accommodation</h3>
+			<p align="justify">The following hotels are located at walking distance from the PolyU.
+			</p>
+
+
+            <br><br>
+			<center>
+
+			<table width=100% style='table-layout:fixed' cellspacing="0" cellpadding="0" rules="rows" frame="hsides">
+			<col width=60% border=0>
+			<col width=40%>
+			<tr  >
+			<th style='border:0'>
+			<p>Hotel / Address</p>
+			</th>
+			<th style='border:0'>
+			<p>Distance / Web Page</p>
+			</th>
+			</tr>
+			<tr>
+			<td style='border-right:0'>
+			<p><b>Hotel ICON (5 stars)</b></p>
+			<p>17 Science Museum Road, Tsim Sha Tsui East</p>
+			<p>Kowloon, Hong Kong</p>
+			</td>
+			<td style='border-right:0'>
+			<p>400 m</p>
+			<p><a href="http://www.hotel-icon.com" target="_blank">
+			http://www.hotel-icon.com</a></p>
+			</td>
+			</tr>
+
+			<tr style='border:1'>
+			<td style='border-right:0'>
+			<p><b>Best Western PLUS Hotel Kowloon (3 stars)</b></p>
+			<p>73-75 Chatham Road South, Tsim Sha Tsui,</p>
+			<p>Kowloon, Hong Kong</p>
+			</td>
+			<td style='border-right:0'>
+			<p>450 m</p>
+			<p><a href="http://www.bestwesternplushotelkowloon.com " target="_blank">
+			http://www.bestwesternplushotelkowloon.com </a></p>
+			</td>
+			</tr>
+			<tr>
+			<td style='border-right:0'>
+			<p><b>Regal Kowloon Hotel (4 stars)</b></p>
+			<p>71 Mody Road</p>
+			<p>Tsimshatsui, Hong Kong</p>
+			</td>
+			<td style='border-right:0'>
+			<p>700 m</p>
+			<p><a href="http://www.regalhotel.com/regal-kowloon-hotel " target="_blank">
+			http://www.regalhotel.com/regal-kowloon-hotel </a></p>
+			</td>
+			</tr>
+
+      <tr>
+			<td style='border-right:0'>
+			<p><b>Harbour Plaza Metropolis (4 stars)</b></p>
+			<p>7 Metropolis Drive, Hung Hom</p>
+			<p> Kowloon, Hong Kong</p>
+			</td>
+			<td style='border-right:0'>
+			<p>850 m</p>
+			<p><a href="http://www.harbour-plaza.com/metropolis" target="_blank">
+        http://www.harbour-plaza.com/metropolis</a></p>
+			</td>
+			</tr>
+
+
+			</table>
+			<br>
+
+			</center>
+	</div>
+
+	<div class="page-header" id="banquet">
+			<h3>About Hong Kong</h3><br>
+
+      <p align="justify"><b>Population</b><br>
+      Hong Kong, with a population of 7.34 million, is a city of energy! It is international – a city where East meets West. People of Chinese descent comprise the vast majority of the population, with foreign nationals comprising 8.6%.
+
+      <p align="justify"><b>Language</b><br>
+      Hong Kong’s official languages are English and Chinese. English is widely used in the Government and by the legal, professional and business sectors. Trilingual professionals who speak English, Cantonese and Putonghua play a vital role in the numerous enterprises trading in Hong Kong or doing business with mainland China and Taiwan.
+
+      <p align="justify"><b>Hong Kong Tourism Board</b><br>
+      The Hong Kong Tourism Board (HKTB) is fantastic that it provides a wealth of free and excellent information for travelers. You may visit <a href="http://www.discoverhongkong.com/">HKTB’s homepage</a> or call their hotline for visitors at (852) 2508-1234 for more information.
+
+      <p align="justify"><b>Climate</b><br>
+        Hong Kong's climate is sub-tropical, with temperatures dropping below 10 degrees Celsius in winter and exceeding 31 degrees Celsius in summer.  It is warm, sunny and dry in autumn, cool and dry in winter, warm and humid in spring, and hot and rainy in summer. You may wish to know more about the local climate at <a href="http://www.hko.gov.hk/">Hong Kong Observatory’s homepage</a>.
+
+
+</div> <!-- /container -->
+
+<div class="page-header" id="banquet">
+    <h3>Entry Requirements</h3><br>
+
+    <p align="justify"><b>Travel Document</b><br>
+    A valid passport is the only document that most people will need to enter Hong Kong. Keep your passport in an inconspicuous, safe place, and carry your passport with you. If you lose your passport, please immediately contact the nearest embassy or consulate and the local police.
+
+
+    <p align="justify"><b>Visa</b><br>
+      To check whether you need a visa to visit Hong Kong or not, please visit <a href="https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html">Hong Kong Immigration Department's homepage</a>.
+
+
+
+    <p align="justify"><b>Travel to Mainland China</b><br>
+      If you plan for a trip to mainland China, you will probably need a visa. Visa can be obtained in Hong Kong. You can visit the following websites for details about China visa application:
+      <ul>
+        <li> <a href="http://www.fmcoprc.gov.hk/eng/fwxx/wgrqz">Office of the Commissioner of the Ministry of Foreign Affairs of the People’s Republic of China in the Hong Kong Special Administrative Region</a></li>
+        <li><a href="https://www.ctshk.com/english/useful/chinesevisa.htm">China Travel Service (Hong Kong) Limited</a> </li>
+      </ul>
+
+
+</div> <!-- /container -->
+
+
+<div class="page-header" id="banquet">
+    <h3>Entry Requirements</h3><br>
+
+    <p align="justify"><b>Travel Document</b><br>
+    A valid passport is the only document that most people will need to enter Hong Kong. Keep your passport in an inconspicuous, safe place, and carry your passport with you. If you lose your passport, please immediately contact the nearest embassy or consulate and the local police.
+
+
+    <p align="justify"><b>Visa</b><br>
+      To check whether you need a visa to visit Hong Kong or not, please visit <a href="https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html">Hong Kong Immigration Department's homepage</a>.
+
+
+
+    <p align="justify"><b>Travel to Mainland China</b><br>
+      If you plan for a trip to mainland China, you will probably need a visa. Visa can be obtained in Hong Kong. You can visit the following websites for details about China visa application:
+      <ul>
+        <li> <a href="http://www.fmcoprc.gov.hk/eng/fwxx/wgrqz">Office of the Commissioner of the Ministry of Foreign Affairs of the People’s Republic of China in the Hong Kong Special Administrative Region</a></li>
+        <li><a href="https://www.ctshk.com/english/useful/chinesevisa.htm">China Travel Service (Hong Kong) Limited</a> </li>
+      </ul>
+
+
+</div> <!-- /container -->
+
+
+
+<footer class="footer">
+      <div class="container">
+
+			<div class="row">
+				<div class="col-lg-6">
+
+				</div>
+
+			</div>
+			<p class="pull-right"><a href="venue.html#">Back to top</a></p>
+		</div>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ </body>
+</html>
