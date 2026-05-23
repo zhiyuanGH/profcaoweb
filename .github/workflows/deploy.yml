@@ -1,0 +1,57 @@
+name: Deploy website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_ENABLED: ${{ secrets.DEPLOY_ENABLED }}
+
+    steps:
+      - name: Deployment not configured
+        if: ${{ env.DEPLOY_ENABLED != 'true' }}
+        run: |
+          echo "Skipping deployment. Set DEPLOY_ENABLED=true after adding the SSH deployment secrets."
+
+      - name: Install SSH credentials
+        if: ${{ env.DEPLOY_ENABLED == 'true' }}
+        shell: bash
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/deploy_key
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Deploy on server
+        if: ${{ env.DEPLOY_ENABLED == 'true' }}
+        shell: bash
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/deploy_key "$DEPLOY_USER@$DEPLOY_HOST" '
+            set -e
+            cd /webhome/webjcao/public_html
+            git config core.fileMode false
+            git fetch origin main
+            git reset --hard origin/main
+            find . -type d -exec chmod 755 {} +
+            find . -type f -exec chmod 644 {} +
+            if [ -f gitpush.sh ]; then chmod 755 gitpush.sh; fi
+            git status --short --branch
+          '
