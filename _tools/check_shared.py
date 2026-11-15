@@ -22,7 +22,8 @@ def main():
         if expected != revision:
             parser.exit(1, f"The personal site uses IMCL revision {expected}. Select that checkout.\n")
         dirty = subprocess.check_output(
-            ["git", "-C", str(source), "status", "--porcelain", "--", "_tools/render_shared.py", "data/shared"],
+            ["git", "-C", str(source), "status", "--porcelain", "--",
+             "_tools/render_shared.py", "_tools/shared_years.py", "data/shared"],
             text=True,
         )
         if dirty:
