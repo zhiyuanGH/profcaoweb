@@ -1,0 +1,7 @@
+[Unit]
+Description=Check GitHub main for personal website updates every five minutes
+
+[Timer]
+OnCalendar=*:0/5
+AccuracySec=10s
+Persistent=true
