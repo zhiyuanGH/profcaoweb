@@ -6,21 +6,27 @@ The `webjcao` account on Apollo publishes the personal website from
 existing read-only GitHub access. If the commit matches the installed version,
 the run ends before scanning the website files.
 
-## Install after release approval
+## Install or refresh the timer
 
 Log in as `webjcao` on Apollo. The checkout must use the personal repository as
 `origin` and have its local `main` branch checked out. Its Git credentials must
-work without a prompt. For SSH, use this account's trusted GitHub host key and
-its own read-only deploy key. Git, Bash, Python 3 and a systemd user manager
-are required.
+work without a prompt while logged out. Apollo's checkout uses HTTPS. The
+service sets `HOME=/webhome/webjcao` so Git can run independently of the
+login home. Git, Bash, Python 3 and a systemd user manager are required.
 
 To run after logout and reboot, check `loginctl show-user webjcao -p Linger`.
 If it reports `Linger=no`, run `loginctl enable-linger webjcao`. A host
 administrator must enable lingering if local policy denies this request.
 
-Once the release is merged, the following Bash commands install the units
-from the approved `origin/main` even when the website checkout still predates
-the timer. Installation starts the timer and runs one update immediately.
+A login mounts CIFS over `/home/webjcao`. After the last logout, and at boot,
+systemd reads its units from the local home underneath that mount. The two
+installation steps below put the same unit files in both places. The service
+script and its copy of the units live in the private NFS directory
+`/webhome/webjcao/.local/lib/profcaoweb-deploy`, accessible in either state.
+
+From an approved copy of `ops/`, run `sh ops/install-timer.sh` as
+`webjcao`. This installs the units in the login home and runs one deployment
+check immediately. To get the approved files from personal-site `main`:
 
 ```bash
 cd /webhome/webjcao/public_html
@@ -34,27 +40,46 @@ cd /webhome/webjcao/public_html
 )
 ```
 
-The installer uses a regular `timers.target.d/profcaoweb-deploy.conf` drop-in
-under `~/.config/systemd/user/` to start the timer on Apollo's SMB home
-directory. When a later release changes files under `ops/`, run these same
-installation commands to refresh the installed copies.
+Schedule the second installation, log out of **all** `webjcao` sessions
+within 90 seconds and stay logged out until a scheduled five-minute check
+has passed:
+
+```sh
+systemd-run --user --collect --unit=profcaoweb-install-boot-home \
+  --on-active=90s --timer-property=RemainAfterElapse=no \
+  /bin/sh /webhome/webjcao/.local/lib/profcaoweb-deploy/install-timer.sh --boot-home
+```
+
+The one-time installer checks for zero login sessions, an unmounted home and
+ownership by `webjcao` before writing to the local home. Each home has a
+regular `timers.target.d/profcaoweb-deploy.conf` drop-in that starts the
+timer. A successful boot-home installation records its UTC time in
+`boot-home-installed` after the service check. If a login overlapped the
+installer, schedule it again and repeat the logout. When `ops/` changes,
+repeat both installation steps.
 
 ## Check, run and stop
 
 ```bash
-systemctl --user list-timers profcaoweb-deploy.timer
-journalctl --user -u profcaoweb-deploy.service -n 30
+cat /webhome/webjcao/.local/lib/profcaoweb-deploy/boot-home-installed
+systemctl --user show profcaoweb-deploy.timer -p ActiveState -p LastTriggerUSec -p NextElapseUSecRealtime
+systemctl --user show profcaoweb-deploy.service -p Result -p ExecMainStatus -p ExecMainExitTimestamp
 ```
+
+On the next login, look for a new installation timestamp, an active timer
+and a trigger after installation and before that login. The corresponding
+service should report `Result=success` and `ExecMainStatus=0`. These checks
+work even when the user account cannot read the system journal.
 
 Use `systemctl --user start profcaoweb-deploy.service` for an immediate check.
 The timer and manual check use the same service, which systemd runs once at a
-time. To turn off automatic checks, stop the timer, remove its drop-in and
-reload the user manager:
+time. A private pause file prevents deployments in either login state,
+including after a reboot:
 
 ```bash
-systemctl --user stop profcaoweb-deploy.timer
-rm -f ~/.config/systemd/user/timers.target.d/profcaoweb-deploy.conf
-systemctl --user daemon-reload
+touch /webhome/webjcao/.local/lib/profcaoweb-deploy/paused
+# To resume on the next timer tick:
+rm -f /webhome/webjcao/.local/lib/profcaoweb-deploy/paused
 ```
 
 When an update is available, the service checks for local edits to tracked

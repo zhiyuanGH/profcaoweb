@@ -1,10 +1,12 @@
 [Unit]
 Description=Update the personal website from profcaoweb main
+ConditionPathExists=!/webhome/webjcao/.local/lib/profcaoweb-deploy/paused
 
 [Service]
 Type=oneshot
 WorkingDirectory=/webhome/webjcao/public_html
+Environment=HOME=/webhome/webjcao
 Environment=GIT_TERMINAL_PROMPT=0
 Environment="GIT_SSH_COMMAND=ssh -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15"
-ExecStart=/bin/sh %h/.local/lib/profcaoweb-deploy/deploy-main.sh
+ExecStart=/bin/sh /webhome/webjcao/.local/lib/profcaoweb-deploy/deploy-main.sh
 TimeoutStartSec=3min
