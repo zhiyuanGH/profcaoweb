@@ -4,6 +4,8 @@
 
 The IMCL [agent guide](https://github.com/zhiyuanGH/imcl-website/blob/main/AGENTS.md) explains how to select an annual list, the homepage or Recently Accepted. Leave the existing HTML markers around historical entries and the slots for new entries in place. From this checkout, `python _tools/check_shared.py --imcl-root ../IMCL-Website` verifies a deployment against its pinned source revision.
 
+Publish only confirmed facts. Omit an uncertain date, amount, role, or status. If the available evidence does not establish the entry itself or its connection to Prof. Cao, leave it off the website and mention it in the maintenance summary.
+
 For a personal-site layout or an independent teaching, grants, group, service, biography or demo update, make a personal-site PR. Keep the existing fragment names, jQuery tabs, styles and website URLs.
 
 The `webjcao` account pulls its own `main` every five minutes once the timer is installed. The owner's permission-preserving helper applies updates. See [DEPLOYMENT.md](DEPLOYMENT.md) for first setup and deployment logs.
